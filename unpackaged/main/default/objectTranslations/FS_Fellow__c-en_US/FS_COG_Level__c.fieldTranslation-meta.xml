@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Level of giving --></help>
+        <label><!-- COG Level --></label>
+        <name>FS_COG_Level__c</name>
+        <picklistValues>
+            <masterLabel>Basic Fellow ($1,000)</masterLabel>
+            <translation><!-- Basic Fellow ($1,000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cardozo Circle ($10,000)</masterLabel>
+            <translation><!-- Cardozo Circle ($10,000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fellow ($2000)</masterLabel>
+            <translation><!-- Fellow ($2000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freedman Circle ($3,000)</masterLabel>
+            <translation><!-- Freedman Circle ($3,000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hand Circle ($50,000)</masterLabel>
+            <translation><!-- Hand Circle ($50,000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hughes Circle ($5,000)</masterLabel>
+            <translation><!-- Hughes Circle ($5,000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>John Jay Circle ($15,000)</masterLabel>
+            <translation><!-- John Jay Circle ($15,000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kay Crawford Murray ($40,000)</masterLabel>
+            <translation><!-- Kay Crawford Murray ($40,000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President's Circle ($75,000)</masterLabel>
+            <translation><!-- President&apos;s Circle ($75,000) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustaining Fellow ($2,500)</masterLabel>
+            <translation><!-- Sustaining Fellow ($2,500) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thurgood Marshall ($25,000)</masterLabel>
+            <translation><!-- Thurgood Marshall ($25,000) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

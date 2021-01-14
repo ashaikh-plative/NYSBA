@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_DuesPaidBy__c</fullName>
+    <description>Field to identify the dues payer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the dues payer type for the membership</inlineHelpText>
+    <label>Dues Paid By</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Employer Only</fullName>
+                <default>false</default>
+                <label>Employer Only</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>Collectively by Employer &amp; Member</fullName>
+                <default>false</default>
+                <label>Collectively by Employer &amp; Member</label>
+            </value>
+            <value>
+                <fullName>No Dues Paid</fullName>
+                <default>false</default>
+                <label>No Dues Paid</label>
+            </value>
+            <value>
+                <fullName>Fully by Firm or School or Organization</fullName>
+                <default>false</default>
+                <label>Fully by Firm or School or Organization</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

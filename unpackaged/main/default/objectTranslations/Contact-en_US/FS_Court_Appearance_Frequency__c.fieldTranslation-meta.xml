@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Court Appearance Frequency --></label>
+        <name>FS_Court_Appearance_Frequency__c</name>
+        <picklistValues>
+            <masterLabel>Frequently</masterLabel>
+            <translation><!-- Frequently --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation><!-- Never --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Occasionally</masterLabel>
+            <translation><!-- Occasionally --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

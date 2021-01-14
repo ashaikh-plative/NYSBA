@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_End_Date__c</fullName>
+    <description>End Date of this Leadership Role and Title position for this Community Group Member</description>
+    <externalId>false</externalId>
+    <inlineHelpText>End Date of this Leadership Role and Title position for this Community Group Member</inlineHelpText>
+    <label>End Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

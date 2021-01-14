@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- A link to the UPS site with the Tracking number --></help>
+        <label><!-- UPS Tracking Number --></label>
+        <name>FS_UPS_Tracking_Number__c</name>
+    </CustomFieldTranslation>

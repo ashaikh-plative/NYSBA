@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Contact from GDPR country has expressly opted in to receive NYSBA communications (must be by express consent) --></help>
+        <label><!-- GDPR Opt-In --></label>
+        <name>FS_GDPR_OptIn__c</name>
+    </CustomFieldTranslation>

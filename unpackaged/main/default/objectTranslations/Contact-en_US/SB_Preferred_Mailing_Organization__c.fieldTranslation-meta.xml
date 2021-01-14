@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field shows Organization Name or Primary Affiliation only if Preferred Mailing Address is set to Work/School, or if nothing is selected (in which case the preferred address populates with Work/School details). --></help>
+        <label><!-- Preferred Mailing Organization --></label>
+        <name>SB_Preferred_Mailing_Organization__c</name>
+    </CustomFieldTranslation>

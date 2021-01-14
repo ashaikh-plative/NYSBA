@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the imported pledge amount paid. It comes from external data sources. --></help>
+        <label><!-- Imported Pledge Amount Paid --></label>
+        <name>FS_Imported_Pledge_Amount_Paid__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- LTD Fellows/Circle Payments --></help>
+        <label><!-- LTD Fellows/Circle Payments --></label>
+        <name>LTD_Fellows_Circle_Payments__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This metadata is to hold the constant values.</description>
+    <label>FS Constants</label>
+    <pluralLabel>FS Constants</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

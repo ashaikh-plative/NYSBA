@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Primary_Practice_Setting_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Practice Setting Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>FS_Primary_Practice_Setting_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Federal</fullName>
+                <default>false</default>
+                <label>Federal</label>
+            </value>
+            <value>
+                <fullName>State</fullName>
+                <default>false</default>
+                <label>State</label>
+            </value>
+            <value>
+                <fullName>Local/Municipal/County</fullName>
+                <default>false</default>
+                <label>Local/Municipal/County</label>
+            </value>
+            <value>
+                <fullName>Military</fullName>
+                <default>false</default>
+                <label>Military</label>
+            </value>
+            <value>
+                <fullName>Foreign (outside of U.S.)</fullName>
+                <default>false</default>
+                <label>Foreign (outside of U.S.)</label>
+            </value>
+            <value>
+                <fullName>Financial Services</fullName>
+                <default>false</default>
+                <label>Financial Services</label>
+            </value>
+            <value>
+                <fullName>Consumer Goods/Retail</fullName>
+                <default>false</default>
+                <label>Consumer Goods/Retail</label>
+            </value>
+            <value>
+                <fullName>Media/Entertainment</fullName>
+                <default>false</default>
+                <label>Media/Entertainment</label>
+            </value>
+            <value>
+                <fullName>Vendor/Supplier of services for attorneys</fullName>
+                <default>false</default>
+                <label>Vendor/Supplier of services for attorneys</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Public Utilities/Energy</fullName>
+                <default>false</default>
+                <label>Public Utilities/Energy</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Healthcare (for profit)</fullName>
+                <default>false</default>
+                <label>Healthcare (for profit)</label>
+            </value>
+            <value>
+                <fullName>Information Technology</fullName>
+                <default>false</default>
+                <label>Information Technology</label>
+            </value>
+            <value>
+                <fullName>New York State</fullName>
+                <default>false</default>
+                <label>New York State</label>
+            </value>
+            <value>
+                <fullName>Federal (U.S.)</fullName>
+                <default>false</default>
+                <label>Federal (U.S.)</label>
+            </value>
+            <value>
+                <fullName>Administrative Law Courts</fullName>
+                <default>false</default>
+                <label>Administrative Law Courts</label>
+            </value>
+            <value>
+                <fullName>Foreign Courts (outside of U.S.)</fullName>
+                <default>false</default>
+                <label>Foreign Courts (outside of U.S.)</label>
+            </value>
+            <value>
+                <fullName>International Courts/Tribunals</fullName>
+                <default>false</default>
+                <label>International Courts/Tribunals</label>
+            </value>
+            <value>
+                <fullName>Full-Service (Multi-Department) Law Firm</fullName>
+                <default>false</default>
+                <label>Full-Service (Multi-Department) Law Firm</label>
+            </value>
+            <value>
+                <fullName>Boutique (single focus) Law Firm</fullName>
+                <default>false</default>
+                <label>Boutique (single focus) Law Firm</label>
+            </value>
+            <value>
+                <fullName>General Practice Law Firm</fullName>
+                <default>false</default>
+                <label>General Practice Law Firm</label>
+            </value>
+            <value>
+                <fullName>Arbitration/Mediation</fullName>
+                <default>false</default>
+                <label>Arbitration/Mediation</label>
+            </value>
+            <value>
+                <fullName>Online legal services provider</fullName>
+                <default>false</default>
+                <label>Online legal services provider</label>
+            </value>
+            <value>
+                <fullName>Law School</fullName>
+                <default>false</default>
+                <label>Law School</label>
+            </value>
+            <value>
+                <fullName>College/University</fullName>
+                <default>false</default>
+                <label>College/University</label>
+            </value>
+            <value>
+                <fullName>High School (9-12)</fullName>
+                <default>false</default>
+                <label>High School (9-12)</label>
+            </value>
+            <value>
+                <fullName>Elementary/Middle/Jr. High School (K-8)</fullName>
+                <default>false</default>
+                <label>Elementary/Middle/Jr. High School (K-8)</label>
+            </value>
+            <value>
+                <fullName>Library</fullName>
+                <default>false</default>
+                <label>Library</label>
+            </value>
+            <value>
+                <fullName>Legal Services Provider</fullName>
+                <default>false</default>
+                <label>Legal Services Provider</label>
+            </value>
+            <value>
+                <fullName>Other Non-Profit (non-legal services)</fullName>
+                <default>false</default>
+                <label>Other Non-Profit (non-legal services)</label>
+            </value>
+            <value>
+                <fullName>Healthcare (non-profit)</fullName>
+                <default>false</default>
+                <label>Healthcare (non-profit)</label>
+            </value>
+            <value>
+                <fullName>Bar Association</fullName>
+                <default>false</default>
+                <label>Bar Association</label>
+            </value>
+            <value>
+                <fullName>Other Association (not bar)</fullName>
+                <default>false</default>
+                <label>Other Association (not bar)</label>
+            </value>
+            <value>
+                <fullName>Labor Union</fullName>
+                <default>false</default>
+                <label>Labor Union</label>
+            </value>
+            <value>
+                <fullName>Non-Law Related</fullName>
+                <default>false</default>
+                <label>Non-Law Related</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Federal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>State</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Local/Municipal/County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Military</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Foreign (outside of U.S.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Financial Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Consumer Goods/Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Media/Entertainment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Vendor/Supplier of services for attorneys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Public Utilities/Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <controllingFieldValue>Miscellaneous/Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Healthcare (for profit)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Information Technology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <valueName>New York State</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <valueName>Federal (U.S.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <valueName>Administrative Law Courts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <valueName>Foreign Courts (outside of U.S.)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <valueName>International Courts/Tribunals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Full-Service (Multi-Department) Law Firm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Boutique (single focus) Law Firm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>General Practice Law Firm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Arbitration/Mediation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Online legal services provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Law School</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>College/University</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>High School (9-12)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Elementary/Middle/Jr. High School (K-8)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Library</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <valueName>Legal Services Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <valueName>Other Non-Profit (non-legal services)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <valueName>Healthcare (non-profit)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <valueName>Bar Association</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <valueName>Other Association (not bar)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous/Other</controllingFieldValue>
+            <valueName>Labor Union</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous/Other</controllingFieldValue>
+            <valueName>Non-Law Related</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

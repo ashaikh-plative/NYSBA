@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The amount placed on the sales order for the General Contribution amount that the individual can donate. --></help>
+        <label><!-- Individual Contribution Amount --></label>
+        <name>FS_Individual_Contribution_Amount__c</name>
+    </CustomFieldTranslation>

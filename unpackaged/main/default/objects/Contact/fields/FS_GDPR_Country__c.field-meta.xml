@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_GDPR_Country__c</fullName>
+    <externalId>false</externalId>
+    <formula>(NOT(ISBLANK(TEXT(MailingCountryCode))) &amp;&amp; CONTAINS("AX:AD:AT:BE:BG:HR:CY:CZ:DK:EE:FO:FI:FR:DE:GI:GR:GG:VA:HU:IE:IS:IM:IT:JE:LV:LI:LT:LU:MT:MC:NL:NO:PL:PT:RO:SM:SK:SI:ES:SJ:SE:GB", TEXT(MailingCountryCode))) || (NOT(ISBLANK(TEXT(OtherCountryCode))) &amp;&amp; CONTAINS("AX:AD:AT:BE:BG:HR:CY:CZ:DK:EE:FO:FI:FR:DE:GI:GR:GG:VA:HU:IE:IS:IM:IT:JE:LV:LI:LT:LU:MT:MC:NL:NO:PL:PT:RO:SM:SK:SI:ES:SJ:SE:GB", TEXT(OtherCountryCode)))</formula>
+    <inlineHelpText>Automatically checked if the home or work country of the contact fall into the GDPR list</inlineHelpText>
+    <label>GDPR Country</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

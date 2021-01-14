@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Law_School__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is the Law School field to be used in the Membership Join Process</description>
+    <externalId>false</externalId>
+    <label>Law School</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Contacts (Law School)</relationshipLabel>
+    <relationshipName>Contacts2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

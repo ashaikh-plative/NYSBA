@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Yes : If it is a formula field 
+Provide dependent field to check old map
+If dependent field is blank then irrespective of field changed or not values will be updated --></help>
+        <label><!-- Is Formula Field --></label>
+        <name>Is_Formula_Field__c</name>
+    </CustomFieldTranslation>

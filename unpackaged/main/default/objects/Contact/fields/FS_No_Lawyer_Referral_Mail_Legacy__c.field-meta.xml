@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_No_Lawyer_Referral_Mail_Legacy__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <inlineHelpText>Data from NYSBA's legacy system (iMIS). Lawyer Referral Mail is sent very infrequently, so this field is generally not applicable.</inlineHelpText>
+    <label>No Lawyer Referral Mail (Legacy)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

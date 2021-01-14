@@ -1,0 +1,20 @@
+<meta name="viewport" content="width=device-width">
+<br>
+<p style="text-align:center;font-size:32px;"" >
+<b>You made a difference!</b>
+</p>
+<p style="text-align:center;">
+<img src="https://nysba--nysbauat--c.cs90.content.force.com/servlet/servlet.ImageServer?id=0151F000000dsEj&oid=00D1F000000A0xz&lastMod=1591961226000" alt="Thanks" align="center" class="centerImage" height="360" width="240"  />
+</p>
+
+
+<p style="text-align:center;">
+The New York Bar Foundation<br>
+1 Elk Street <br>
+Albany, NY 12207<br>
+Tel: (518) 487-5651 <br>
+www.tnybf.org
+ <br><br>  
+Please follow the link below to download a copy of your receipt. <br>
+Receipt Link: <a href="https://nysba--nysbauat--lte.cs90.visual.force.com/apex/ViewDocument?recordId={!OrderApi__Receipt__c.Id}">Click Here</a>
+ <br><br></p>

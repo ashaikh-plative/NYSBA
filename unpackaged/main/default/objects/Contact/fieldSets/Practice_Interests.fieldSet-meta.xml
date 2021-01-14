@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Practice_Interests</fullName>
+    <description>NYSBA Portal - user practice interests (AOPs)</description>
+    <displayedFields>
+        <field>FS_Practice_Interests__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Practice Interests</label>
+</FieldSet>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllContacts</fullName>
+    <columns>FS_NYSBA_ID__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>FS_Contact_Member_Status__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>FS_Organization_Name_for_Reports__c</columns>
+    <columns>CONTACT.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SB_Preferred_Mailing_City__c</field>
+        <operation>equals</operation>
+        <value>Bronx</value>
+    </filters>
+    <filters>
+        <field>FS_Preferred_Mailing_JD__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>All Contacts</label>
+</ListView>

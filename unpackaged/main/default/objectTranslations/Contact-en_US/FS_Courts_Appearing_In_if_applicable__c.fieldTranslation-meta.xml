@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Courts Appearing In (if applicable) --></label>
+        <name>FS_Courts_Appearing_In_if_applicable__c</name>
+        <picklistValues>
+            <masterLabel>Administrative Law Courts</masterLabel>
+            <translation><!-- Administrative Law Courts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreign Courts (outside of U.S.)</masterLabel>
+            <translation><!-- Foreign Courts (outside of U.S.) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International Courts/Tribunals</masterLabel>
+            <translation><!-- International Courts/Tribunals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - Appellate Division of the Supreme Court</masterLabel>
+            <translation><!-- NYS: Civil - Appellate Division of the Supreme Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - City Court</masterLabel>
+            <translation><!-- NYS: Civil - City Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - County Court</masterLabel>
+            <translation><!-- NYS: Civil - County Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - Court of Claims</masterLabel>
+            <translation><!-- NYS: Civil - Court of Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - District Court</masterLabel>
+            <translation><!-- NYS: Civil - District Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - Family Court</masterLabel>
+            <translation><!-- NYS: Civil - Family Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - Housing Court</masterLabel>
+            <translation><!-- NYS: Civil - Housing Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - New York City Civil Court</masterLabel>
+            <translation><!-- NYS: Civil - New York City Civil Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - Small Claims</masterLabel>
+            <translation><!-- NYS: Civil - Small Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - Supreme Court</masterLabel>
+            <translation><!-- NYS: Civil - Supreme Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - Supreme Court - Commercial Division</masterLabel>
+            <translation><!-- NYS: Civil - Supreme Court - Commercial Division --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - Surrogate's Court</masterLabel>
+            <translation><!-- NYS: Civil - Surrogate&apos;s Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Civil - Town/Village Court</masterLabel>
+            <translation><!-- NYS: Civil - Town/Village Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Court of Appeals</masterLabel>
+            <translation><!-- NYS: Court of Appeals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Criminal - City Court</masterLabel>
+            <translation><!-- NYS: Criminal - City Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Criminal - County Court</masterLabel>
+            <translation><!-- NYS: Criminal - County Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Criminal - District Court</masterLabel>
+            <translation><!-- NYS: Criminal - District Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYS: Criminal - Town/Village Court</masterLabel>
+            <translation><!-- NYS: Criminal - Town/Village Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Federal: Bankruptcy Court</masterLabel>
+            <translation><!-- U.S. Federal: Bankruptcy Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Federal: Court of Appeals for Veterans Claims</masterLabel>
+            <translation><!-- U.S. Federal: Court of Appeals for Veterans Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Federal: Court of Appeals for the Armed Forces</masterLabel>
+            <translation><!-- U.S. Federal: Court of Appeals for the Armed Forces --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Federal: Court of Appeals for the Federal Circuit</masterLabel>
+            <translation><!-- U.S. Federal: Court of Appeals for the Federal Circuit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Federal: Courts of Appeals - Circuit Court</masterLabel>
+            <translation><!-- U.S. Federal: Courts of Appeals - Circuit Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Federal: Immigration Court</masterLabel>
+            <translation><!-- U.S. Federal: Immigration Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Federal: Supreme Court</masterLabel>
+            <translation><!-- U.S. Federal: Supreme Court --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>U.S. Federal: Tax Court</masterLabel>
+            <translation><!-- U.S. Federal: Tax Court --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

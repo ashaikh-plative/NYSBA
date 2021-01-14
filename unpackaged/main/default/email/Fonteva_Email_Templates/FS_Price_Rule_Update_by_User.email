@@ -1,0 +1,3 @@
+Hello,
+
+The price rule: https://nysba.my.salesforce.com/{!OrderApi__Price_Rule__c.Id} has been updated by logged in user: {!User.Id}

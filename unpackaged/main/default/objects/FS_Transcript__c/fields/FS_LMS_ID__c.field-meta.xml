@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_LMS_ID__c</fullName>
+    <description>Stores the Completed Registration Id from CE21</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Stores the Completed Registration Id from CE21</inlineHelpText>
+    <label>LMS ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Check if paid for life --></help>
+        <label><!-- Paid Life --></label>
+        <name>FS_Paid_Life__c</name>
+    </CustomFieldTranslation>

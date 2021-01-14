@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Law_Schools</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>FS_Accredited__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>ACCOUNT.ADDRESS2_CITY</columns>
+    <columns>ACCOUNT.ADDRESS2_STATE_CODE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>FS_Accredited__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Law Schools</label>
+</ListView>

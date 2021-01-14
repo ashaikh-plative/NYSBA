@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Child_Item_Is_Event_Validation</fullName>
+    <active>true</active>
+    <description>This validation rule checks for Child Item Is event true or not upon Insert and update</description>
+    <errorConditionFormula>IF(FS_Child_Item__c!="",(IF( FS_Child_Item__r.OrderApi__Is_Event__c=TRUE ,false,true)),false)</errorConditionFormula>
+    <errorMessage>The child item should be a valid event item</errorMessage>
+</ValidationRule>

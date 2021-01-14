@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_In_State__c</fullName>
+    <externalId>false</externalId>
+    <formula>(MailingCountry = "United States" &amp;&amp; MailingState = "New York") || (OtherCountry = "United States"  &amp;&amp; OtherState = "New York")</formula>
+    <inlineHelpText>Checked if Home or Work/School State of the contact is New York</inlineHelpText>
+    <label>In State</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Event__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Event tied to the logistic record</inlineHelpText>
+    <label>Event</label>
+    <referenceTo>EventApi__Event__c</referenceTo>
+    <relationshipLabel>Logistics</relationshipLabel>
+    <relationshipName>Logistics</relationshipName>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

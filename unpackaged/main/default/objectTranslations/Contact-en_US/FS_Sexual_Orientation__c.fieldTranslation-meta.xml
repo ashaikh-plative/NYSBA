@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sexual Orientation --></label>
+        <name>FS_Sexual_Orientation__c</name>
+        <picklistValues>
+            <masterLabel>Decline to Answer</masterLabel>
+            <translation><!-- Decline to Answer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heterosexual</masterLabel>
+            <translation><!-- Heterosexual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lesbian/Gay/Bisexual/Queer/Asexual</masterLabel>
+            <translation><!-- Lesbian/Gay/Bisexual/Queer/Asexual --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

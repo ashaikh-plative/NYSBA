@@ -1,0 +1,31 @@
+<div style="font-family:Segoe UI, Arial;font-size: 14px;width:600px;border: 1px solid #888;padding:15px 30px;box-shadow: 6px 6px 5px #ccc;">
+    <table  border="0" cellpadding="0" cellspacing="0" style="width:100%;font-size: inherit;">
+      <tr>
+        <td style="font-size: 60px; font-weight: bold;font-style: italic; width: 10%;"><img src="https://nysba--nysbauat--c.cs90.content.force.com/servlet/servlet.ImageServer?id=0151U000000rRXp&oid=00D1F000000A0xz&lastMod=1575346860000" alt=""></td>
+        </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" style="font-size: inherit;margin-top: 25px;">
+      <thead>
+        <tr>
+          <th style="font-size: 110%;font-weight: normal; width: 70%; text-align: left;padding: 8px 5px;border-top: 1px solid #ccc;border-top: 2px solid #88f;border-bottom: 1px solid #ccc;">Item Number</th>
+          <th style="font-size: 110%;font-weight: normal; width: 20%;padding: 8px 5px;border-top: 1px solid #ccc;border-top: 2px solid #88f;border-bottom: 1px solid #ccc;text-align:center;">Date</th>
+          <th style="font-size: 110%;font-weight: normal; padding: 8px 5px;border-top: 1px solid #ccc;border-top: 2px solid #88f;border-bottom: 1px solid #ccc;">Amount $</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 5px;border-bottom: 1px solid #ccc;">{{TableStart:Items}}{{Name}}</td>
+          <td style="padding: 5px;border-bottom: 1px solid #ccc;text-align:center;">{{Date}}</td>
+          <td style="text-align: right;padding: 5px;border-bottom: 1px solid #ccc;text-align:right;">{{Amount}}{{TableEnd}}</td>
+        </tr>
+        <tr>
+          <td colspan="2" style="font-weight: bold; text-align: right; padding-right: 10px;padding-top: 4px;">Total </td>
+          <td style="padding: 8px 5px; text-align:right;">{{Items:Amount:Sum}}</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 style="margin-bottom: 0;">Notes</h3>
+    <p>All prices are in US dollars. Payment is  due on receipt of this invoice.<br/></p>
+    <p></p>
+    <p>Thank you for your business!</p>
+  </div>

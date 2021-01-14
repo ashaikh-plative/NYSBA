@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Engagement_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The Account related to the Community Group Member at the time of purchase</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Account related to the Community Group Member at the time of purchase</inlineHelpText>
+    <label>Engagement Account</label>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Community Group Member Terms</relationshipLabel>
+    <relationshipName>Community_Group_Member_Terms</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

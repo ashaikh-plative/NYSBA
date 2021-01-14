@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Type of logistic --></help>
+        <label><!-- Type --></label>
+        <name>FS_Type__c</name>
+        <picklistValues>
+            <masterLabel>Booths</masterLabel>
+            <translation><!-- Booths --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chairs</masterLabel>
+            <translation><!-- Chairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Laptops</masterLabel>
+            <translation><!-- Laptops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microphone</masterLabel>
+            <translation><!-- Microphone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitors</masterLabel>
+            <translation><!-- Monitors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notepads</masterLabel>
+            <translation><!-- Notepads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pens</masterLabel>
+            <translation><!-- Pens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projector</masterLabel>
+            <translation><!-- Projector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recording Equipment</masterLabel>
+            <translation><!-- Recording Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tabletop</masterLabel>
+            <translation><!-- Tabletop --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

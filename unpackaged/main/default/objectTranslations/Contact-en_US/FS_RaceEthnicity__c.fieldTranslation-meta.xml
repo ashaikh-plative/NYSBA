@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select all that apply --></help>
+        <label><!-- Race/Ethnicity --></label>
+        <name>FS_RaceEthnicity__c</name>
+        <picklistValues>
+            <masterLabel>Asian/Pacific Islander</masterLabel>
+            <translation><!-- Asian/Pacific Islander --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black/African American</masterLabel>
+            <translation><!-- Black/African American --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decline to Answer</masterLabel>
+            <translation><!-- Decline to Answer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hispanic/Latinx</masterLabel>
+            <translation><!-- Hispanic/Latinx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Native American</masterLabel>
+            <translation><!-- Native American --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White/Caucasian</masterLabel>
+            <translation><!-- White/Caucasian --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

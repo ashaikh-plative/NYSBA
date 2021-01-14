@@ -1,0 +1,6 @@
+Hello Staff,
+
+{!OrderApi__Item__c.Name} with Product Code {!OrderApi__Item__c.FS_Product_Code__c}  has reached the low inventory level. Please look into it ASAP.
+
+Thanks,
+NYSBA

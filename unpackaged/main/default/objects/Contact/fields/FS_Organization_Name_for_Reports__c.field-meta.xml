@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Organization_Name_for_Reports__c</fullName>
+    <description>For Report- If Primary Affiliation is not null then print it else print Organization Name</description>
+    <externalId>false</externalId>
+    <formula>IF( FS_Primary_Affiliation__c !="", FS_Primary_Affiliation__r.Name  , FS_Organization_Name__c )</formula>
+    <inlineHelpText>For Report- If Primary Affiliation is not null then print it else print Organization Name</inlineHelpText>
+    <label>Organization Name for Reports</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

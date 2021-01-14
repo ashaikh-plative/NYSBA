@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Order_Tracking_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>FS_Quantity__c</fields>
+    <fields>FS_Sales_Order__c</fields>
+    <fields>FS_Sales_Order_Line__c</fields>
+    <fields>FS_Total_Quantity_Shipped__c</fields>
+    <label>Order Tracking Compact Layout</label>
+</CompactLayout>

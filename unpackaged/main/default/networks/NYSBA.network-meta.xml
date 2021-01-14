@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Network xmlns="http://soap.sforce.com/2006/04/metadata">
+    <allowInternalUserLogin>false</allowInternalUserLogin>
+    <allowMembersToFlag>false</allowMembersToFlag>
+    <changePasswordTemplate>unfiled$public/CommunityChangePasswordEmailTemplate</changePasswordTemplate>
+    <communityRoles/>
+    <description>NYSBA Portal</description>
+    <disableReputationRecordConversations>true</disableReputationRecordConversations>
+    <emailSenderAddress>salesforce+nysbalive@fusionspan.com</emailSenderAddress>
+    <emailSenderName>nysba</emailSenderName>
+    <enableCustomVFErrorPageOverrides>false</enableCustomVFErrorPageOverrides>
+    <enableDirectMessages>true</enableDirectMessages>
+    <enableGuestChatter>false</enableGuestChatter>
+    <enableGuestFileAccess>true</enableGuestFileAccess>
+    <enableGuestMemberVisibility>false</enableGuestMemberVisibility>
+    <enableInvitation>false</enableInvitation>
+    <enableKnowledgeable>false</enableKnowledgeable>
+    <enableMemberVisibility>true</enableMemberVisibility>
+    <enableNicknameDisplay>false</enableNicknameDisplay>
+    <enablePrivateMessages>false</enablePrivateMessages>
+    <enableReputation>false</enableReputation>
+    <enableShowAllNetworkSettings>false</enableShowAllNetworkSettings>
+    <enableSiteAsContainer>true</enableSiteAsContainer>
+    <enableTalkingAboutStats>true</enableTalkingAboutStats>
+    <enableTopicAssignmentRules>true</enableTopicAssignmentRules>
+    <enableTopicSuggestions>false</enableTopicSuggestions>
+    <enableUpDownVote>false</enableUpDownVote>
+    <forgotPasswordTemplate>unfiled$public/CommunityForgotPasswordEmailTemplate</forgotPasswordTemplate>
+    <gatherCustomerSentimentData>false</gatherCustomerSentimentData>
+    <networkMemberGroups>
+        <permissionSet>PagesApi__Fonteva_Communities_Salesforce_User</permissionSet>
+        <permissionSet>PagesApi__Fonteva_Communities_Customer_Community_Login_User</permissionSet>
+        <permissionSet>PagesApi__Fonteva_Communities_Partner_Community_Login_User</permissionSet>
+        <permissionSet>PagesApi__Fonteva_Communities_Salesforce_Platform_User</permissionSet>
+        <permissionSet>Password_Never_Expires</permissionSet>
+        <permissionSet>OrderApi__Fonteva_eBusiness_Customer_Community_Login_User</permissionSet>
+        <permissionSet>OrderApi__Fonteva_eBusiness_Partner_Community_Login_User</permissionSet>
+        <permissionSet>OrderApi__Fonteva_eBusiness_Salesforce_Platform_User</permissionSet>
+        <permissionSet>OrderApi__Fonteva_eBusiness_Salesforce_User</permissionSet>
+        <permissionSet>EventApi__Fonteva_Events_Customer_Community_Login_User</permissionSet>
+        <permissionSet>EventApi__Fonteva_Events_Partner_Community_Login_User</permissionSet>
+        <permissionSet>EventApi__Fonteva_Events_Salesforce_Platform_User</permissionSet>
+        <permissionSet>EventApi__Fonteva_Events_Salesforce_User</permissionSet>
+        <permissionSet>CPBase__Fonteva_Communities_Portal_Customer_Community_Login_User</permissionSet>
+        <permissionSet>CPBase__Fonteva_Communities_Portal_Partner_Community_Login_User</permissionSet>
+        <permissionSet>CPBase__Fonteva_Communities_Portal_Salesforce_Platform_User</permissionSet>
+        <permissionSet>CPBase__Fonteva_Communities_Portal_Salesforce_User</permissionSet>
+        <permissionSet>DonorApi__Fonteva_DonorApi_Customer_Community_Login_User</permissionSet>
+        <permissionSet>DonorApi__Fonteva_DonorApi_Partner_Community_Login_User</permissionSet>
+        <permissionSet>DonorApi__Fonteva_DonorApi_Salesforce_Platform_User</permissionSet>
+        <permissionSet>DonorApi__Fonteva_DonorApi_Salesforce_User</permissionSet>
+        <permissionSet>Accounting_Developer</permissionSet>
+        <permissionSet>View_Encrypted_Data</permissionSet>
+        <profile>Admin</profile>
+        <profile>Fonteva Standard Platform User</profile>
+        <profile>Analytics Cloud Integration User</profile>
+        <profile>Analytics Cloud Security User</profile>
+        <profile>Chatter Free User</profile>
+        <profile>Chatter Only User</profile>
+        <profile>Company Communities User</profile>
+        <profile>Chatter Moderator User</profile>
+        <profile>StandardAul</profile>
+        <profile>Standard</profile>
+        <profile>ReadOnly</profile>
+        <profile>SolutionManager</profile>
+        <profile>MarketingProfile</profile>
+        <profile>ContractManager</profile>
+        <profile>Fonteva Customer Community Login User</profile>
+    </networkMemberGroups>
+    <networkPageOverrides>
+        <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
+        <forgotPasswordPageOverrideSetting>Standard</forgotPasswordPageOverrideSetting>
+        <homePageOverrideSetting>Designer</homePageOverrideSetting>
+        <loginPageOverrideSetting>Standard</loginPageOverrideSetting>
+        <selfRegProfilePageOverrideSetting>Designer</selfRegProfilePageOverrideSetting>
+    </networkPageOverrides>
+    <picassoSite>NYSBA_C</picassoSite>
+    <selfRegistration>false</selfRegistration>
+    <sendWelcomeEmail>true</sendWelcomeEmail>
+    <site>NYSBA2</site>
+    <status>Live</status>
+    <tabs>
+        <defaultTab>home</defaultTab>
+        <standardTab>Chatter</standardTab>
+    </tabs>
+    <urlPathPrefix>nysba</urlPathPrefix>
+    <welcomeTemplate>unfiled$public/CommunityWelcomeEmailTemplate</welcomeTemplate>
+</Network>

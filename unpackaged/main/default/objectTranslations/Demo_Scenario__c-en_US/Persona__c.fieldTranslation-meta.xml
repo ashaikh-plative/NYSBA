@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select the persona(s) related to the demo scenario. --></help>
+        <label><!-- Persona --></label>
+        <name>Persona__c</name>
+        <picklistValues>
+            <masterLabel>Chapter President</masterLabel>
+            <translation><!-- Chapter President --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Committee/Group Manager</masterLabel>
+            <translation><!-- Committee/Group Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Database Administrator &amp; Web Developer</masterLabel>
+            <translation><!-- Database Administrator &amp; Web Developer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director of Finance &amp; Administration</masterLabel>
+            <translation><!-- Director of Finance &amp; Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education/Certification Manager</masterLabel>
+            <translation><!-- Education/Certification Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Events Manager</masterLabel>
+            <translation><!-- Events Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Director</masterLabel>
+            <translation><!-- Executive Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing &amp; Communications Manager</masterLabel>
+            <translation><!-- Marketing &amp; Communications Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Member/Customer</masterLabel>
+            <translation><!-- Member/Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership Coordinator</masterLabel>
+            <translation><!-- Membership Coordinator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospective Member/Customer</masterLabel>
+            <translation><!-- Prospective Member/Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Website Visitor</masterLabel>
+            <translation><!-- Public Website Visitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publications/Advertising Manager</masterLabel>
+            <translation><!-- Publications/Advertising Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Manager (Sponsorships/Advertisements)</masterLabel>
+            <translation><!-- Sales Manager (Sponsorships/Advertisements) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

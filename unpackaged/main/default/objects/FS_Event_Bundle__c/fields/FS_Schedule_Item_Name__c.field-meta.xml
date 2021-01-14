@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Schedule_Item_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>FS_Child_Item__r.EventApi__Schedule_Item__r.Name</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>The name of the Schedule Item linked to the Child Item.</inlineHelpText>
+    <label>Schedule Item Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

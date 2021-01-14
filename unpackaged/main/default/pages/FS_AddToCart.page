@@ -1,0 +1,116 @@
+<!--
+ - Created by dfitzgerald on 2019-09-04.
+ -->
+<apex:page id="FS_AddToCart" controller="FS_AddToCartPageController" showHeader="false">    
+    <apex:stylesheet value="{!$Resource.RegistrationCss}" />
+    <apex:form >
+        <div class="addtoCart_wrap col-lg-11 col-md-11 col-sm-11 col-xs-11">
+            <div class="nysba_logo">
+                <img src="/resource/logo" alt="Nysba Logo" />
+            </div>            
+            <div class="addtoCart_inner">
+                <apex:actionFunction name="runDML" action="{!runDMLApex}" reRender="allPanel"/>
+                <apex:actionFunction name="redirect" action="{!redirectApex}" reRender=""/>
+        
+                <apex:outputPanel id="allPanel">
+        
+                    <!-- After controller constructor finishes, run DML statements (create sales order/sales order line)-->
+                    <apex:outputPanel rendered="{!NOT(dmlRun)}">
+                        Please wait
+                        <script>
+                            window.onload=function () {
+                                runDML();
+                            }
+                        </script>
+                    </apex:outputPanel>
+        
+                    <!-- After DML statements finish, set cookie and redirect-->
+                    <apex:outputPanel rendered="{!dmlRun}">
+                        <script>
+                            const CLASSIC_COOKIE_SUBSTRING = "-fonteva-shopping-cart";
+                            const LIGHTNING_COOKIE_SUBSTRING = "-fonteva-community-shopping-cart";
+        
+                            function getApexCookie(cname){
+                                var name = cname + "=";
+                                var decodedCookie = decodeURIComponent(document.cookie);
+                                var ca = decodedCookie.split(';');
+                                for(var i = 0; i <ca.length; i++) {
+                                    var c = ca[i];
+                                    while (c.charAt(0) == ' ') {
+                                        c = c.substring(1);
+                                    }
+                                    if (c.indexOf(name) == 0) {
+                                        return c.substring(name.length, c.length);
+                                    }
+                                }
+                                return "";
+                            }
+        
+                            //create cookies for both classic and lightning carts
+                            function setApexCookie(){
+                                var orgId = '{!$Organization.Id}';
+                                var orderId = '{!salesOrderId}';
+                                var userId = '{!userId}';
+                                var contactId = '{!contactId}';
+                                document.cookie = "apex__"+orgId+CLASSIC_COOKIE_SUBSTRING+"={\"salesOrderId\":\""+orderId+"\",\"usr\":\""+userId+"\",\"contact\":\""+contactId+"\"}; path=/; secure;";
+                                document.cookie = "apex__"+orgId+LIGHTNING_COOKIE_SUBSTRING+"={\"salesOrderId\":\""+orderId+"\",\"usr\":\""+userId+"\",\"contact\":\""+contactId+"\"}; path=/; secure;";
+        
+                            }
+        
+                            function createCookie() {
+                                console.log("creating cookie");
+                                setApexCookie();
+                            }
+        
+                            //parameter validation check is done before page load (in page controller's constructor)
+                            if ({!parametersValid}) {
+                                //setup expected cookie name
+                                console.log("find apex cookie");
+                                var orgId = '{!$Organization.Id}';
+                                var classicCookieName = "apex__" + orgId + CLASSIC_COOKIE_SUBSTRING;
+                                var lightningCookieName = "apex__" + orgId + LIGHTNING_COOKIE_SUBSTRING;
+                                console.log("cookie name = " + classicCookieName);
+        
+                                //retrieve cookie if exists
+                                var classicCookie = getApexCookie(classicCookieName);
+                                var lightningCookie = getApexCookie(lightningCookieName);
+        
+                                //check if cookie was found
+                                if (classicCookie != "" && lightningCookie != '') {
+                                    var cookie = classicCookie;
+                                    if (lightningCookie != '') {
+                                        cookie = lightningCookie;
+                                    }
+                                    console.log("cookie was found");
+                                    var c = JSON.parse(cookie);
+                                    console.log(c['salesOrderId']);
+        
+                                    //if found cookie's salesOrderId is different than the most recent cart's salesOrderId, create new cookie
+                                    if (c['salesOrderId'] != '{!salesOrderId}') {
+                                        console.log("salesorderids don't match! Creating new cookie");
+                                        createCookie();
+                                    }
+                                } else {
+                                    //if cookie not found, create cookie
+                                    console.log("cookie was not found");
+                                    createCookie();
+                                }
+        
+                            } else {
+                                console.log("parameters are not valid")
+                            }
+        
+                            //redirect
+                            console.log("redirect : "+"{!redirectUrl}" + " " + "{!returnParameterString}");
+                            redirect();
+        
+                        </script>
+                    </apex:outputPanel>
+        
+                </apex:outputPanel>
+        
+                <apex:outputText rendered="{!redirectMissing}" value="An invalid redirect URL was used, or no redirect URL found. Please contact administrator."/>
+            </div>
+        </div>
+    </apex:form>
+</apex:page>

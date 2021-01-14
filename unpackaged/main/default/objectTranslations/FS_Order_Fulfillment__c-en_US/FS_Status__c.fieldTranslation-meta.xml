@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Status of ePayment --></help>
+        <label><!-- Status --></label>
+        <name>FS_Status__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No ePayment</masterLabel>
+            <translation><!-- No ePayment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ePayment Submitted</masterLabel>
+            <translation><!-- ePayment Submitted --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

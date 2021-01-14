@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>TNYBF</label>
+    <protected>false</protected>
+    <values>
+        <field>FS_Batch_Name_Format__c</field>
+        <value xsi:type="xsd:string">Portal TNYBF DDMMYY</value>
+    </values>
+    <values>
+        <field>FS_Business_Group_Id__c</field>
+        <value xsi:type="xsd:string">a0o1U000001qP6SQAU</value>
+    </values>
+    <values>
+        <field>FS_Cutoff_Time__c</field>
+        <value xsi:type="xsd:string">19:12</value>
+    </values>
+    <values>
+        <field>FS_Payment_Gateway_Record_Id__c</field>
+        <value xsi:type="xsd:string">a181F000000j7ue</value>
+    </values>
+    <values>
+        <field>FS_Timezone__c</field>
+        <value xsi:type="xsd:string">America/New_York</value>
+    </values>
+    <values>
+        <field>FS_User_Profile_Id__c</field>
+        <value xsi:type="xsd:string">00e1U000002KnscQAC</value>
+    </values>
+</CustomMetadata>

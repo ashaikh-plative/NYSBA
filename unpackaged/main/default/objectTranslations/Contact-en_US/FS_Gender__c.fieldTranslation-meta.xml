@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Gender Identity. Select all that apply --></help>
+        <label><!-- Gender Identity --></label>
+        <name>FS_Gender__c</name>
+        <picklistValues>
+            <masterLabel>Cisgender</masterLabel>
+            <translation><!-- Cisgender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decline to Answer</masterLabel>
+            <translation><!-- Decline to Answer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intersex</masterLabel>
+            <translation><!-- Intersex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-binary</masterLabel>
+            <translation><!-- Non-binary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transgender</masterLabel>
+            <translation><!-- Transgender --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

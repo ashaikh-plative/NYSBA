@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Base url for OKTA API Endpoints: eg https://nysba-admin.oktapreview.com --></help>
+        <label><!-- OKTA API Base URL --></label>
+        <name>FS_OKTA_API_Base_URL__c</name>
+    </CustomFieldTranslation>

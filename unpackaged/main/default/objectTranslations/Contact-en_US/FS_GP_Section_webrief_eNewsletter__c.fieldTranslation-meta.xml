@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Category of bulk email message sent to members of the General Practice Section --></help>
+        <label><!-- GP Section wEbrief eNewsletter --></label>
+        <name>FS_GP_Section_webrief_eNewsletter__c</name>
+    </CustomFieldTranslation>

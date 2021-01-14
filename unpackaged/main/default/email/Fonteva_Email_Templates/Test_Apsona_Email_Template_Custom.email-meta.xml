@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <attachments>
+        <content></content>
+        <name>Test</name>
+    </attachments>
+    <available>false</available>
+    <description>Test Apsona Email Template Custom</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Test Apsona Email Template Custom</name>
+    <style>none</style>
+    <subject>Test Apsona Email Template Custom</subject>
+    <textOnly>Item Number Date Amount $
+{{TableStart:Items}}{{Name}}  {{Date}}  {{Amount}}{{TableEnd}}
+Total   {{Items:Amount:Sum}}
+
+Notes
+
+All prices are in US dollars. Payment is  due on receipt of this invoice.
+
+
+Thank you for your business!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

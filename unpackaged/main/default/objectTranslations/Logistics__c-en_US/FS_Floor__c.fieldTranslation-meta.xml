@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Room&apos;s floor number - auto-populated if value filled on room tied to the event/schedule item --></help>
+        <label><!-- Floor --></label>
+        <name>FS_Floor__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Number of Days before the end of the year where the Section Component on the Portal will not allow users to add/edit their own section. --></help>
+        <label><!-- Section Cutoff Date Before Year End --></label>
+        <name>Section_Cutoff_Date_Before_Year_End__c</name>
+    </CustomFieldTranslation>

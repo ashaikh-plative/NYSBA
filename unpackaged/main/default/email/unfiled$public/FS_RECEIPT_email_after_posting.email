@@ -1,0 +1,36 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<p class="MsoNormal"><span style="font-size:10.0pt;line-height:115%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;color:black;background:white"><br>
+Dear {!OrderApi__Receipt__c.OrderApi__Contact__c},</span><span style="font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:black"><br>
+<br>
+<span style="background:white">Thank you for your order.</span></span></p><p class="MsoNormal"><span style="font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:black"><br></span></p><ul style="background-color: rgb(255, 255, 255);"><li><span style="line-height: 15.3333px; font-size: 13.3333px;"><font face="Arial, sans-serif">In order to access an On-Demand program, you must Log-in, click on My Learning Dashboard, and launch the recorded program from the list.&nbsp;<br><br></font></span></li><li><span style="line-height: 15.3333px; font-size: 13.3333px;"><font face="Arial, sans-serif">Downloadable purchases, such as eBooks, can be accessed by selecting the My Downloads tab when viewing your profile.<br><br></font></span></li><li><span style="line-height: 15.3333px; font-size: 13.3333px;"><font face="Arial, sans-serif">For products being shipped, due to the current situation being presented to us with the Coronavirus, our warehouse is operating on reduced hours, so please allow 7-10 business days for your order to arrive.</font></span></li></ul><p class="MsoNormal"><span style="font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+color:black">
+<br>
+<span style="background:white">Please follow the link below to download a copy
+of your receipt.</span><br>
+<br>
+<span style="background:white">Receipt Link:&nbsp;<a href="https://portal.nysba.org/Orderapi__receipt?id={!OrderApi__Receipt__c.Id}">https://portal.nysba.org/Orderapi__receipt?id={!OrderApi__Receipt__c.Id}</a></span><br>
+<br>
+<span style="background:white">If you have any questions regarding your
+receipt, please contact our Member Resource Center at 800-582-2452 or via e-mail&nbsp;</span><a href="mailto:mrc@nysba.org"><span style="color:black">mrc@nysba.org</span></a><br>
+<br>
+<span style="background:white">Thank you,</span><br>The {!Organization.Name}<br>
+<br>
+<br></span></p><div><font face="Arial, sans-serif" size="2">One Elk Street<br>Albany<br>NY 12207</font></div><div><font face="Arial, sans-serif" size="2">518-463-3200</font></div><p class="MsoNormal"><span style="font-size: 10pt; line-height: 115%; font-family: Arial, sans-serif;"><o:p></o:p></span></p><div><font face="Arial, sans-serif" size="2">www.nysba.org</font></div>
+
+<p class="MsoNormal"><span style="font-size:10.0pt;line-height:115%;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;"><o:p>&nbsp;</o:p></span></p>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

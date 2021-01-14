@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Name of Community Group for this term --></help>
+        <label><!-- Community Group Name --></label>
+        <name>FS_Community_Group_Name__c</name>
+    </CustomFieldTranslation>

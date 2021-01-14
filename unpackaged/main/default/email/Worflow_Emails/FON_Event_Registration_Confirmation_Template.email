@@ -1,0 +1,15 @@
+Dear {!EventApi__Attendee__c.EventApi__Full_Name__c}:
+
+This is to confirm that you are registered for the following event:
+{!EventApi__Attendee__c.EventApi__Event__c}
+
+Event start date: 
+{!EventApi__Start_Date__c} 
+
+For more information about the event, visit the event page at (hyperlink to events calendar). View our cancellation policy here. 
+
+Thank you,
+{!Organization.Name}
+
+
+One Elk Street, Albany, NY 12207, 518-463-3200 | www.nysba.org

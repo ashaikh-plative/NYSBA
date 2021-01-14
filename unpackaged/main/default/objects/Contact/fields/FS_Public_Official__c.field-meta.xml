@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Public_Official__c</fullName>
+    <description>Do you qualify as a public official? NYSBA is registered with the NYS Joint Commission on Public Ethics pursuant to the Lobbying Act to engage in lobbying activities. Consequently, public officials cannot accept certain benefits from the Association. Further information can be obtained by contacting an official's agency ethics officer or the Association at (518) 463-3200.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Do you receive a New York State or local governmental pay check or hold an appointment from a New York State or local governmental official?</inlineHelpText>
+    <label>Are you a Public Official?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Unsure</fullName>
+                <default>false</default>
+                <label>Unsure</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

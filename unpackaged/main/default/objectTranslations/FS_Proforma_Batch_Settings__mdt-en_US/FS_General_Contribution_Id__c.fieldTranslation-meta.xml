@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Id of the General Contribution Item --></help>
+        <label><!-- General Contribution Id --></label>
+        <name>FS_General_Contribution_Id__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Data from NYSBA&apos;s legacy system (iMIS). Lawyer Referral Mail is sent very infrequently, so this field is generally not applicable. --></help>
+        <label><!-- No Lawyer Referral Mail (Legacy) --></label>
+        <name>FS_No_Lawyer_Referral_Mail_Legacy__c</name>
+    </CustomFieldTranslation>

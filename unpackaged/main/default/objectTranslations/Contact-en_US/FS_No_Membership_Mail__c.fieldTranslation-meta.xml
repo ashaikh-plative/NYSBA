@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do not send hard copy mailings related to NYSBA membership (e.g., invitations to join) --></help>
+        <label><!-- No Membership Mail --></label>
+        <name>FS_No_Membership_Mail__c</name>
+    </CustomFieldTranslation>

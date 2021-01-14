@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Sustaining</label>
+    <protected>false</protected>
+    <values>
+        <field>FS_Description__c</field>
+        <value xsi:type="xsd:string">Attorney members who voluntarily provide additional funds to further support the work of the Association</value>
+    </values>
+    <values>
+        <field>FS_Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

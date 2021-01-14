@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Date member upgraded to Sustaining Member status. This field automatically populates when Sustaining Member checkbox is checked. The date is not automatically removed if member downgrades. --></help>
+        <label><!-- Sustaining Member Sign-up Date --></label>
+        <name>Sustaining_Member_Sign_up_Date__c</name>
+    </CustomFieldTranslation>

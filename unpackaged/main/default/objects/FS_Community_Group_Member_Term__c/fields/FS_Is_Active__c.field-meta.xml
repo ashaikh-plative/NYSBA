@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Is_Active__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+OR(
+AND(
+ FS_Term_Grace_Period_End_Date__c &gt;= TODAY(),
+ FS_Community_Group_Member__r.FS_Paid_Through_Date__c  &lt;=  FS_Term_End_Date__c,
+ FS_Community_Group_Member__r.FS_Grace_Period_End_Date__c &lt;=  FS_Term_Grace_Period_End_Date__c 
+),
+ FS_Term_End_Date__c  &gt;=  TODAY()
+),
+ FS_Term_Start_Date__c &lt;= TODAY(),
+ NOT(FS_Deactivated_Manually__c)
+),
+TRUE,
+FALSE
+)</formula>
+    <label>Is Active</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

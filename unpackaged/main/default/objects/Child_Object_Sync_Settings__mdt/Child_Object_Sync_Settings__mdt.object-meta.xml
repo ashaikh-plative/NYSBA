@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Settings for child object records to be sent along with parent object in payload</description>
+    <label>Child Object Sync Settings</label>
+    <pluralLabel>Child Object Sync Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

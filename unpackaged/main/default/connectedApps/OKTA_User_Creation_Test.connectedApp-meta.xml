@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>hub+nysbalive@fusionspan.com</contactEmail>
+    <label>OKTA User Creation Test</label>
+    <oauthConfig>
+        <callbackUrl>https://www.getpostman.com/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9FG3dvS828gL.pckzEFAegWcSSVAY.X6VS2JLgt5MPu_d9LR7WsPDKYeew2B.ZUQcaBz5bU1TSrQMGF3l</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SB_Preferred_Mailing_Organization__c</fullName>
+    <description>If Preferred Mailing Address is set to "Home," this field is blank. If Work/School is selected as Preferred Mailing Address, this field will populate with Organization Name for Reports (field that uses logic for primary affiliation, else org name); if nothing is selected, Preferred Mailing details will default to Work, so this field will likewise populate with Organization Name in that case. (This prevents invalid mailing address if sent to home.)</description>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL(FS_Preferred_Mailing_Address__c, "Home"), Null, FS_Organization_Name_for_Reports__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>This field shows Organization Name or Primary Affiliation only if Preferred Mailing Address is set to Work/School, or if nothing is selected (in which case the preferred address populates with Work/School details).</inlineHelpText>
+    <label>Preferred Mailing Organization</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

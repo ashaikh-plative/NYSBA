@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Enable if the corresponding Order was created outside of Fonteva. --></help>
+        <label><!-- External Sales Order --></label>
+        <name>FS_External_Sales_Order__c</name>
+    </CustomFieldTranslation>

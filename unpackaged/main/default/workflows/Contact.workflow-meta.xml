@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>New_Contact_has_been_created</fullName>
+        <description>FON-CONTACT-New Contact Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>eshannon@nysba.org.staff</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>pboland@nysba.org.staff</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Worflow_Emails/FON_New_Contact_Registration</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Date_Stamp_Attorney_Admission_Verified</fullName>
+        <description>Adds TODAY as date when Yes is selected on Contact.Attorney Admission Verified. If "No" is later select, date is cleared from field.</description>
+        <field>Date_Verified_by_Staff__c</field>
+        <formula>CASE(FS_Attorney_Admission_Verified__c, "Yes",TODAY(),
+'No',NULL,
+'Pending',NULL, NULL)</formula>
+        <name>Date Stamp or Remove Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Designate_Work_School_as_preferred_bill</fullName>
+        <description>Selects Work/School as preferred billing address</description>
+        <field>FS_Preferred_Billing_Address__c</field>
+        <literalValue>Work/School</literalValue>
+        <name>Designate Work/School as preferred bill</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SB2_Uncheck_Undeliverable_Field</fullName>
+        <description>Unchecks Undeliverable Preferred Mailing Address field</description>
+        <field>FS_UndeliverablePreferredMailingAddress__c</field>
+        <literalValue>0</literalValue>
+        <name>SB2_Uncheck Undeliverable Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SB_Populate_Sustaining_sign_up_date</fullName>
+        <description>Populates Sustaining Member sign-up date field with today's date when Sustaining Member checkbox=true.</description>
+        <field>Sustaining_Member_Sign_up_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>SB_Populate Sustaining sign-up date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>SB_Uncheck_Undeliverable_field</fullName>
+        <description>Uncheck undeliverable preferred mailing address field</description>
+        <field>FS_UndeliverablePreferredMailingAddress__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Undeliverable field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_preferred_billing_to_Home</fullName>
+        <description>Sets preferred billing address to Home</description>
+        <field>FS_Preferred_Billing_Address__c</field>
+        <literalValue>Home</literalValue>
+        <name>Set preferred billing to Home</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Contact_HL_Mod_Date</fullName>
+        <description>Used for the Higher Logic Integration</description>
+        <field>HL_Mod_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Update Contact HL Mod Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Personal_Email</fullName>
+        <field>OrderApi__Personal_Email__c</field>
+        <formula>Email</formula>
+        <name>Update Personal Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>FON - Update Personal Email Field</fullName>
+        <actions>
+            <name>Update_Personal_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.Email</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Workflow updates Personal Email field on Contact so that Preferred Email is always populated</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>FON-CONTACT-New Contact Email Alert</fullName>
+        <actions>
+            <name>New_Contact_has_been_created</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <description>Workflow fires an email alert whenever a new Contact is created by the site guest user.</description>
+        <formula>ISPICKVAL($Profile.UserType,'Guest')</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Preferred Billing - Home</fullName>
+        <actions>
+            <name>Set_preferred_billing_to_Home</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.FS_Preferred_Billing_Address__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.FS_Preferred_Mailing_Address__c</field>
+            <operation>equals</operation>
+            <value>Home</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.FS_UndeliverablePreferredMailingAddress__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>Designates Home as the preferred billing address where preferred billing address field is null and preferred mailing address is set to Home, as long as Undeliverable Preferred Mailing Address is false</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Preferred Billing - Work%2FSchool</fullName>
+        <actions>
+            <name>Designate_Work_School_as_preferred_bill</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.FS_Preferred_Billing_Address__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.FS_Preferred_Mailing_Address__c</field>
+            <operation>equals</operation>
+            <value>Work/School</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contact.FS_UndeliverablePreferredMailingAddress__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <description>Designates Work/School as the preferred billing address where Preferred Billing Address field is null and Preferred Mailing Address is set to Work/School, as long as Undeliverable Preferred Mailing Address is false</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>SB-Date field for Attorney Admission Verified</fullName>
+        <actions>
+            <name>Date_Stamp_Attorney_Admission_Verified</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.FS_Attorney_Admission_Verified__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Captures date that staff marks attorney admission verified as "Yes"</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>SB_Sustaining Member Sign-up Date</fullName>
+        <actions>
+            <name>SB_Populate_Sustaining_sign_up_date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Contact.FS_Sustaining_Member__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Populates Sustaining Member sign-up date when Sustaining Member checkbox is populated. Workflow does not clear out the date field, but reports should be looking for both a currently populated checkbox and the sustaining sign-up date.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>SB_Undeliverable Preferred Mailing Address update</fullName>
+        <actions>
+            <name>SB2_Uncheck_Undeliverable_Field</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Unchecks "Undeliverable Preferred Mailing Address" field (if populated) when Preferred Mailing Street, Preferred Mailing City, Preferred Mailing State, or Preferred Mailing Zip are changed.</description>
+        <formula>OR
+(ISCHANGED(SB_Preferred_Mailing_Street__c), ISCHANGED(SB_Preferred_Mailing_City__c),
+ISCHANGED(SB_Preferred_Mailing_State_Province__c),
+ISCHANGED(SB_Preferred_Mailing_Zip__c)
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Contact HL Mod Date</fullName>
+        <actions>
+            <name>Update_Contact_HL_Mod_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Used for the Higher Logic Integration</description>
+        <formula>ISNEW() ||
+ISCHANGED(FS_Organization_Name_for_Reports__c) ||
+ISCHANGED(MobilePhone) ||
+ISCHANGED(OrderApi__Work_Phone__c) ||
+ISCHANGED(MailingState) ||
+ISCHANGED(MailingCity) ||
+ISCHANGED(FS_NYSBA_ID__c) ||
+ISCHANGED(HomePhone) ||
+ISCHANGED(MailingCountry) ||
+ISCHANGED(FS_In_State__c) ||
+ISCHANGED(MailingStreet) ||
+ISCHANGED(DonorApi__Suffix__c) ||
+ISCHANGED(OrderApi__Preferred_Phone__c) ||
+ISCHANGED(Salutation) ||
+ISCHANGED(FS_Gender__c) ||
+ISCHANGED(Title) ||
+ISCHANGED(FS_Sustaining_Member__c) ||
+ISCHANGED(OrderApi__Preferred_Email__c) ||
+ISCHANGED(MailingPostalCode) ||
+ISCHANGED(FirstName) ||
+ISCHANGED(LastName) ||
+ISCHANGED(AccountId)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

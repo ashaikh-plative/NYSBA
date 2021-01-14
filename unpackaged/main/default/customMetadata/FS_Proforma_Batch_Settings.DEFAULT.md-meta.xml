@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>DEFAULT</label>
+    <protected>false</protected>
+    <values>
+        <field>FS_Batch_Job_Size__c</field>
+        <value xsi:type="xsd:double">30.0</value>
+    </values>
+    <values>
+        <field>FS_Complementary_Member_Price_Id__c</field>
+        <value xsi:type="xsd:string">a1C1U000002CQVrUAO</value>
+    </values>
+    <values>
+        <field>FS_Firm_Billing_Contribution_Amount__c</field>
+        <value xsi:type="xsd:double">100.0</value>
+    </values>
+    <values>
+        <field>FS_General_Contribution_Id__c</field>
+        <value xsi:type="xsd:string">a151U000001igoj</value>
+    </values>
+    <values>
+        <field>FS_General_Donation_Item_Id__c</field>
+        <value xsi:type="xsd:string">a151U0000030ZdvQAE</value>
+    </values>
+    <values>
+        <field>FS_Individual_Contribution_Amount__c</field>
+        <value xsi:type="xsd:double">30.0</value>
+    </values>
+    <values>
+        <field>FS_Law_Student_Item_Id__c</field>
+        <value xsi:type="xsd:string">a151U000001id5r,a151F0000015qakQAA</value>
+    </values>
+    <values>
+        <field>FS_Posting_Batch_Size__c</field>
+        <value xsi:type="xsd:double">8.0</value>
+    </values>
+    <values>
+        <field>FS_Section_Renewal_Dues_Item_Class_Id__c</field>
+        <value xsi:type="xsd:string">a131U000000o0WE</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Organization_to_Individual</fullName>
+    <active>true</active>
+    <label>Organization to Individual</label>
+    <picklistValues>
+        <picklist>FS_Bar_Directory_Role__c</picklist>
+        <values>
+            <fullName>Bar Executive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>President</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>President-Elect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vice President</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Parent_Organization_Category__c</picklist>
+        <values>
+            <fullName>Business%2FCorporation %28In-House%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Court System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educational Institution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law Firm%2FPrivate Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous%2FOther</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Profit%2FPublic Interest</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Parent_Organization_Type__c</picklist>
+        <values>
+            <fullName>Administrative Law Courts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arbitration%2FMediation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bar Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boutique %28single focus%29 Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College%2FUniversity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Goods%2FRetail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary%2FMiddle%2FJr%2E High School %28K-8%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal %28U%2ES%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign %28outside of U%2ES%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign Courts %28outside of U%2ES%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full-Service %28Multi-Department%29 Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Practice Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare %28for profit%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare %28non-profit%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School %289-12%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Courts%2FTribunals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor Union</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Services Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Library</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local%2FMunicipal%2FCounty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media%2FEntertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Law Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online legal services provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Association %28not bar%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Non-Profit %28non-legal services%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Utilities%2FEnergy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor%2FSupplier of services for attorneys</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Status__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Removal_reason__c</picklist>
+        <values>
+            <fullName>Deceased</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No longer with the firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retired</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Adjunct Professor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrative Law Judge%2FHearing Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrator%2FAdministrative Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Associate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attorney General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bar Executive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Career services contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chief Legal Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City Corporation Counsel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Court Attorney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District Attorney%2FProsecutor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diversity Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executive Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Officer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Counsel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-House Counsel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent Contractor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Judge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law Clerk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law Librarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law library contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Librarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lobbyist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managing partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Of Counsel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paralegal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner%2FShareholder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>President</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>President%2FCEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>President-Elect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Principal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro Bono Services Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro bono coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Defender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Official</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior Associate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solo Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff Attorney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Superintendent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Teacher%2Feducator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vice President</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volunteer%2FVolunteer Leader</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

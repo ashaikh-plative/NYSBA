@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send notifications when donation item purchased</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>FS-Receipt for Donation Item-Custom</name>
+    <style>none</style>
+    <subject>Donation Confirmation</subject>
+    <textOnly>You made a difference!
+
+
+The New York Bar Foundation
+
+One Elk Street
+
+Albany, NY 12207
+
+Tel: (518) 487-5651
+
+www.tnybf.org
+
+Please follow the link below to download a copy of your receipt.
+Receipt Link: Click Here</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Field used to manually set the HOD JD value for reporting purposes. --></help>
+        <label><!-- HOD JD Override --></label>
+        <name>HOD_JD_Override__c</name>
+    </CustomFieldTranslation>

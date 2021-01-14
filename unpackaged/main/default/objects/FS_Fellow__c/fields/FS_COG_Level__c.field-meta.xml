@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_COG_Level__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Level of giving</inlineHelpText>
+    <label>COG Level</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Basic Fellow ($1,000)</fullName>
+                <default>false</default>
+                <label>Basic Fellow ($1,000)</label>
+            </value>
+            <value>
+                <fullName>Fellow ($2000)</fullName>
+                <default>false</default>
+                <label>Fellow ($2000)</label>
+            </value>
+            <value>
+                <fullName>Sustaining Fellow ($2,500)</fullName>
+                <default>false</default>
+                <label>Sustaining Fellow ($2,500)</label>
+            </value>
+            <value>
+                <fullName>Freedman Circle ($3,000)</fullName>
+                <default>false</default>
+                <label>Freedman Circle ($3,000)</label>
+            </value>
+            <value>
+                <fullName>Hughes Circle ($5,000)</fullName>
+                <default>false</default>
+                <label>Hughes Circle ($5,000)</label>
+            </value>
+            <value>
+                <fullName>Cardozo Circle ($10,000)</fullName>
+                <default>false</default>
+                <label>Cardozo Circle ($10,000)</label>
+            </value>
+            <value>
+                <fullName>John Jay Circle ($15,000)</fullName>
+                <default>false</default>
+                <label>John Jay Circle ($15,000)</label>
+            </value>
+            <value>
+                <fullName>Thurgood Marshall ($25,000)</fullName>
+                <default>false</default>
+                <label>Thurgood Marshall ($25,000)</label>
+            </value>
+            <value>
+                <fullName>Kay Crawford Murray ($40,000)</fullName>
+                <default>false</default>
+                <label>Kay Crawford Murray ($40,000)</label>
+            </value>
+            <value>
+                <fullName>Hand Circle ($50,000)</fullName>
+                <default>false</default>
+                <label>Hand Circle ($50,000)</label>
+            </value>
+            <value>
+                <fullName>President's Circle ($75,000)</fullName>
+                <default>false</default>
+                <label>President's Circle ($75,000)</label>
+            </value>
+            <value>
+                <fullName>Fellow ($5000)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fellow ($5000)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

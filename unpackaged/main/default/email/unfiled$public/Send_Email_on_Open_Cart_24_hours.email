@@ -1,0 +1,16 @@
+Hi {!Contact.Name},
+
+Perhaps you are no longer interested in the following resource(s):
+Item(s) in your cart:
+{!OrderApi__Item__c.Name}
+If you still intend on purchasing, be sure to complete your order today.
+Purchase Now {!OrderApi__Item__c.Link}
+Questions about your order?
+Call our Member Resource Center at (800)582-2452
+
+
+Thank you,
+The New York State Bar Association
+One Elk Street
+Albany, NY 12207
+www.nysba.org

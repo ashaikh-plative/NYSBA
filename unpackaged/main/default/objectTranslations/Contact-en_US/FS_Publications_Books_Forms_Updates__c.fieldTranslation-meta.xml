@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Category of bulk email messages related to NYSBA books, forms, or other publications --></help>
+        <label><!-- Publications/Books/Forms Advertisement --></label>
+        <name>FS_Publications_Books_Forms_Updates__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Formula field used for price rule for membership in-state prices --></help>
+        <label><!-- Admitted in NYS --></label>
+        <name>FS_Admitted_in_NYS__c</name>
+    </CustomFieldTranslation>

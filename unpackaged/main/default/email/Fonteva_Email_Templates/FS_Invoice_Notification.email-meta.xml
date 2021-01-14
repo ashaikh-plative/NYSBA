@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for Invoice Notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NYSBA_Letterhead</letterhead>
+    <name>FS Invoice Notification</name>
+    <style>formalLetter</style>
+    <subject>Order Invoice</subject>
+    <textOnly>Dear {!OrderApi__Invoice__c.OrderApi__Contact__c},
+
+Thank you for your order.
+
+Please click the link below to download a copy of your invoice.
+
+Invoice Link: https://nysba--nysbauat--orderapi.cs90.visual.force.com/apex/web_invoice?scontrolCaching=1&amp;id={!OrderApi__Invoice__c.Id}
+
+If you have any questions regarding your invoice or how to make a payment, please contact our Member Resource Center at 800-582-2452 or mrc@nysba.org.
+
+Thank you,
+The {!Organization.Name}
+
+One Elk Street
+Albany, NY 12207
+518-463-3200
+www.nysba.org</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

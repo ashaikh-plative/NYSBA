@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Thank you for ordering the All-Access Pass.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NYSBA_Letterhead</letterhead>
+    <name>CLE All Access Pass</name>
+    <style>freeForm</style>
+    <subject>Thank you for ordering the All-Access Pass.</subject>
+    <textOnly>Dear {!OrderApi__Receipt_Line__c.OrderApi__Contact__c},
+
+
+Thank you for ordering the All-Access Pass.
+
+
+· We have updated your NYSBA account to allow for unlimited On-Demand program access.
+
+
+· Just add any recorded program to your cart from our On-Demand CLE catalog and proceed with the checkout process, where the price will be updated to $0.00
+
+
+· To view any program(s) you added, please log-in and click on My Learning Dashboard, then launch the program(s) from your list.
+
+
+· Your All-Access Pass will expire one-year from your date of original purchase.
+
+
+If you have any questions regarding your receipt, please contact our Member Resource Center at 800-582-2452 or via e-mail at mrc@nysba.org
+
+
+Thank you,
+
+
+The New York State Bar Association
+
+One Elk Street
+
+Albany, NY 12207
+
+518-463-3200
+
+www.nysba.org</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

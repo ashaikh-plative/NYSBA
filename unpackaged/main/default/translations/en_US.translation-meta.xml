@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?><Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Accounting --></label>
+        <name>Accounting</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Administrator --></label>
+        <name>Administrator</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Events2 --></label>
+        <name>Assemble</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Communities --></label>
+        <name>Communities</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Developer --></label>
+        <name>Developer</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Events --></label>
+        <name>Events</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Finance --></label>
+        <name>Finance</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Form Builder --></label>
+        <name>Form_Builder</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- Membership --></label>
+        <name>Membership</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- eBusiness --></label>
+        <name>eBusiness</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- eStore --></label>
+        <name>eStore</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- AddToCalendarDescription --></label>
+        <name>FS_AddToCalendarDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Auto-Renew Program Agreement --></label>
+        <name>FS_Auto_Renew_Program_Agreement</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Email Preferences Text --></label>
+        <name>FS_Email_Preferences_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- General Comm Pref Text --></label>
+        <name>FS_General_Comm_Pref_Text</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 1 --></label>
+        <name>FS_JD_Label_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 10 --></label>
+        <name>FS_JD_Label_10</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 11 --></label>
+        <name>FS_JD_Label_11</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 12 --></label>
+        <name>FS_JD_Label_12</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 13 --></label>
+        <name>FS_JD_Label_13</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 2 --></label>
+        <name>FS_JD_Label_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 3 --></label>
+        <name>FS_JD_Label_3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 4 --></label>
+        <name>FS_JD_Label_4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 5 --></label>
+        <name>FS_JD_Label_5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 6 --></label>
+        <name>FS_JD_Label_6</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 7 --></label>
+        <name>FS_JD_Label_7</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 8 --></label>
+        <name>FS_JD_Label_8</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 9 --></label>
+        <name>FS_JD_Label_9</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS JD Label 99 --></label>
+        <name>FS_JD_Label_99</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS MPP Use Lightning URL --></label>
+        <name>FS_MPP_Use_Lightning_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MembershipStatusActive --></label>
+        <name>FS_MembershipStatusActive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MembershipStatusInActive --></label>
+        <name>FS_MembershipStatusInActive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MembershipStatusInGrace --></label>
+        <name>FS_MembershipStatusInGrace</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Date of Publication --></label>
+        <name>FS_MyDownloads_Date_of_Publication_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Date of Purchase --></label>
+        <name>FS_MyDownloads_Date_of_Purchase_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Download Now --></label>
+        <name>FS_MyDownloads_Download_Now_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- File Type --></label>
+        <name>FS_MyDownloads_File_Type_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Item --></label>
+        <name>FS_MyDownloads_Item_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Purchased Items --></label>
+        <name>FS_MyDownloads_Purchased_Items</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS My Downloads Purchased Items Desc --></label>
+        <name>FS_MyDownloads_Purchased_Items_Desc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS NewUserReg OtherEmailExists --></label>
+        <name>FS_NewUserReg_OtherEmailExists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS NewUserReg PreferredEmailExists --></label>
+        <name>FS_NewUserReg_PreferredEmailExists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS NewUserReg Privacy Label --></label>
+        <name>FS_NewUserReg_Privacy_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS NewUserReg Privacy URL --></label>
+        <name>FS_NewUserReg_Privacy_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS NewUserReg TOS Label --></label>
+        <name>FS_NewUserReg_TOS_Label</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS NewUserReg TOS URL --></label>
+        <name>FS_NewUserReg_TOS_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS_Portal_Section_Group_Contact_NYSBA_Message --></label>
+        <name>FS_Portal_Section_Group_Contact_NYSBA_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS_Portal_Section_Group_No_Community_Group_Member --></label>
+        <name>FS_Portal_Section_Group_No_Community_Group_Member</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS_Portal_Section_Group_No_Membership --></label>
+        <name>FS_Portal_Section_Group_No_Membership</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS_PreAuthorizationPaymentBatchSize --></label>
+        <name>FS_PreAuthorizationPaymentBatchSize</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Profile Page Items No Item Download Message --></label>
+        <name>FS_Profile_Page_Items_No_Item_Download_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Roster Community Site --></label>
+        <name>FS_Roster_Community_Site</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS_Roster_Id_Affiliation_List --></label>
+        <name>FS_Roster_Id_Affiliation_List</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Roster Id Organization List --></label>
+        <name>FS_Roster_Id_Organization_List</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS Student Extension Button Header --></label>
+        <name>FS_Student_Extension_Button_Header</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS_SubscribeFail --></label>
+        <name>FS_SubscribeFail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS_SubscribeFail_UserExists --></label>
+        <name>FS_SubscribeFail_UserExists</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FS_SubscribeSuccess --></label>
+        <name>FS_SubscribeSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- note text on attorney summary --></label>
+        <name>FS_note_text_on_attorney_summary</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Share --></label>
+        <name>PagesApi__Share</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Delete Test Data --></label>
+        <name>Delete_Test_Data</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Fonteva Framework --></label>
+        <name>Fonteva_Framework</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Org Setup --></label>
+        <name>GDO_Setup</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_Back_Order_Notification_to_the_user</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_Populate_Org_Type_Org_Category_from_account_to_affiliations</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_ReceiptsLine_and_Order_Confirmation_Email_Part_1</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_ReceiptsLine_and_Order_Confirmation_Email_Part_1_TEMP</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_Receipts_and_Order_Confirmation_Email_Part_2</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_Receipts_and_Order_Confirmation_Part1_1</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_Receipts_and_Order_Confirmation_Part1_2</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_Send_Emails_to_Attendee</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_Set_Ticket_Type_Or_Schedule_Item_To_Be_Inactive</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FS_updateBadgeAwardedDate</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Trigger_Refund_Sync_to_NetSuite</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

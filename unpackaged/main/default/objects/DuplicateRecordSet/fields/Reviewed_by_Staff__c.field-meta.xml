@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reviewed_by_Staff__c</fullName>
+    <description>Intended to effectively remove duplicate record sets from consideration (in reports) after staff have reviewed them and determined they are not dupes (or are unable to conclusively determine such). Periodic review of records marked this way may be in order, hence the date field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Add date reviewed if staff have reviewed the duplicate record set and have either confirmed that the records are NOT duplicates, or are unable to conclusively determine duplicate status.</inlineHelpText>
+    <label>Reviewed by Staff</label>
+    <required>false</required>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- https://help.salesforce.com/articleView?id=admin_supported_timezone.htm&amp;type=5 --></help>
+        <label><!-- Timezone --></label>
+        <name>FS_Timezone__c</name>
+    </CustomFieldTranslation>

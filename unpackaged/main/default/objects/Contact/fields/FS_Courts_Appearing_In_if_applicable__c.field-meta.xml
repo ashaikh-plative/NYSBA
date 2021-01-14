@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Courts_Appearing_In_if_applicable__c</fullName>
+    <externalId>false</externalId>
+    <label>Courts Appearing In (if applicable)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NYS: Civil - Appellate Division of the Supreme Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - Appellate Division of the Supreme Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - City Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - City Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - County Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - County Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - Court of Claims</fullName>
+                <default>false</default>
+                <label>NYS: Civil - Court of Claims</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - District Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - District Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - Family Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - Family Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - Housing Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - Housing Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - New York City Civil Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - New York City Civil Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - Small Claims</fullName>
+                <default>false</default>
+                <label>NYS: Civil - Small Claims</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - Supreme Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - Supreme Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - Supreme Court - Commercial Division</fullName>
+                <default>false</default>
+                <label>NYS: Civil - Supreme Court - Commercial Division</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - Surrogate's Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - Surrogate's Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Civil - Town/Village Court</fullName>
+                <default>false</default>
+                <label>NYS: Civil - Town/Village Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Court of Appeals</fullName>
+                <default>false</default>
+                <label>NYS: Court of Appeals</label>
+            </value>
+            <value>
+                <fullName>NYS: Criminal - City Court</fullName>
+                <default>false</default>
+                <label>NYS: Criminal - City Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Criminal - County Court</fullName>
+                <default>false</default>
+                <label>NYS: Criminal - County Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Criminal - District Court</fullName>
+                <default>false</default>
+                <label>NYS: Criminal - District Court</label>
+            </value>
+            <value>
+                <fullName>NYS: Criminal - Town/Village Court</fullName>
+                <default>false</default>
+                <label>NYS: Criminal - Town/Village Court</label>
+            </value>
+            <value>
+                <fullName>U.S. Federal: Bankruptcy Court</fullName>
+                <default>false</default>
+                <label>U.S. Federal: Bankruptcy Court</label>
+            </value>
+            <value>
+                <fullName>U.S. Federal: Court of Appeals for the Armed Forces</fullName>
+                <default>false</default>
+                <label>U.S. Federal: Court of Appeals for the Armed Forces</label>
+            </value>
+            <value>
+                <fullName>U.S. Federal: Court of Appeals for the Federal Circuit</fullName>
+                <default>false</default>
+                <label>U.S. Federal: Court of Appeals for the Federal Circuit</label>
+            </value>
+            <value>
+                <fullName>U.S. Federal: Court of Appeals for Veterans Claims</fullName>
+                <default>false</default>
+                <label>U.S. Federal: Court of Appeals for Veterans Claims</label>
+            </value>
+            <value>
+                <fullName>U.S. Federal: Courts of Appeals - Circuit Court</fullName>
+                <default>false</default>
+                <label>U.S. Federal: Courts of Appeals - Circuit Court</label>
+            </value>
+            <value>
+                <fullName>U.S. Federal: Immigration Court</fullName>
+                <default>false</default>
+                <label>U.S. Federal: Immigration Court</label>
+            </value>
+            <value>
+                <fullName>U.S. Federal: Supreme Court</fullName>
+                <default>false</default>
+                <label>U.S. Federal: Supreme Court</label>
+            </value>
+            <value>
+                <fullName>U.S. Federal: Tax Court</fullName>
+                <default>false</default>
+                <label>U.S. Federal: Tax Court</label>
+            </value>
+            <value>
+                <fullName>Administrative Law Courts</fullName>
+                <default>false</default>
+                <label>Administrative Law Courts</label>
+            </value>
+            <value>
+                <fullName>Foreign Courts (outside of U.S.)</fullName>
+                <default>false</default>
+                <label>Foreign Courts (outside of U.S.)</label>
+            </value>
+            <value>
+                <fullName>International Courts/Tribunals</fullName>
+                <default>false</default>
+                <label>International Courts/Tribunals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

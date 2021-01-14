@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select the most appropriate category related to the demo scenario. --></help>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>API/Integrations</masterLabel>
+            <translation><!-- API/Integrations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation><!-- Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounts &amp; Contacts</masterLabel>
+            <translation><!-- Accounts &amp; Contacts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certification &amp; Accreditation</masterLabel>
+            <translation><!-- Certification &amp; Accreditation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Community Groups</masterLabel>
+            <translation><!-- Community Groups --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Objects &amp; Fields</masterLabel>
+            <translation><!-- Custom Objects &amp; Fields --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Events</masterLabel>
+            <translation><!-- Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fonteva Labs App</masterLabel>
+            <translation><!-- Fonteva Labs App --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Form Builder</masterLabel>
+            <translation><!-- Form Builder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fundraising</masterLabel>
+            <translation><!-- Fundraising --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Membership</masterLabel>
+            <translation><!-- Membership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner App</masterLabel>
+            <translation><!-- Partner App --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports &amp; Dashboards</masterLabel>
+            <translation><!-- Reports &amp; Dashboards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Profiles &amp; Permissions</masterLabel>
+            <translation><!-- User Profiles &amp; Permissions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workflows &amp; Approval Processes</masterLabel>
+            <translation><!-- Workflows &amp; Approval Processes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

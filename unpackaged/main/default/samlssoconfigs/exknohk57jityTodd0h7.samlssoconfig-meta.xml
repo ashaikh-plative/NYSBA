@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>exknohk57jityTodd0h7</issuer>
+    <loginUrl>https://nysba.oktapreview.com/app/salesforce/exknohk57jityTodd0h7/sso/saml</loginUrl>
+    <logoutUrl>https://nysba.oktapreview.com/login/signout</logoutUrl>
+    <name>OKTA UAT SSO</name>
+    <oauthTokenEndpoint>https://nysba--nysbauat.my.salesforce.com/services/oauth2/token?so=00D1F000000A0xz</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P11U000007gvrK</requestSigningCertId>
+    <salesforceLoginUrl>https://nysba--nysbauat.my.salesforce.com?so=00D1F000000A0xz</salesforceLoginUrl>
+    <samlEntityId>https://nysba--nysbauat.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIDmjCCAoKgAwIBAgIGAWpb8l7GMA0GCSqGSIb3DQEBCwUAMIGNMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxDjAMBgNVBAMMBW55c2JhMRwwGgYJKoZIhvcNAQkBFg1pbmZv
+QG9rdGEuY29tMB4XDTE5MDQyNjIzMTgzMVoXDTI5MDQyNjIzMTkzMVowgY0xCzAJBgNVBAYTAlVT
+MRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0wCwYDVQQKDARP
+a3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEOMAwGA1UEAwwFbnlzYmExHDAaBgkqhkiG9w0BCQEW
+DWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCgcAbwkVDZOhfB
+x59AXcl7H7JG4UgVNkNTMFRw6swVKzBk6vp27yoKFIuSUhwRsP3luEZxMVf/5vulD2+eUy3W8rYN
+k8EIjV90C8BpmvaDTw2VHDbVdxhAtSV1qQGOfEleegl5IUSAGBC2CZU7DscSv2FLKq/gGSdKdurb
+Dt7E3QRjkkRK4FtR5GF6ZYe85pZbzfIuaTuIUf+Y48o2NXa7Zt0kVGV3eZN30UMfsjyvXUVPPJp9
+yV4QDYOEIkYjGcTLfGVyZ8+jiJpuXPdt59ojE7birVDsnABuRSYXf1mqnsMBVh8fh8cMgpwPafWR
+GTS62tzHatK0dj5ybjPJPBexAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAECFTyb16o58pvyfoRbY
+NPT00T77yWA08gVzELht7wl7Qd42hN7bEMlhZNBV4fSMBS9NMuIJlyRnTmLbkRnQgKWKH3cFCcei
+Ka7Kuo+ngQzdqDiG6vjD6ilBNkSydUdseJpkSYe3aCYwP9DfBNHEg810B9Eehr337Suoq0E+mUgH
+SKRjXEtfVlXlibIe7hbvyhsJfMJcH4uluRAVhagA4yTY9UMS8fFRmT38tr7Vwe3bBfQmwOAADavj
+uN+oLbo3CtUomta63hKBsHxG2OarkbBN45p+HOkJwcAvebMVnllDUDP9QJbg3Q/EmHMAaHJXhDZx
+2Bv9dcF9AyckHUexe6w=</validationCert>
+</SamlSsoConfig>

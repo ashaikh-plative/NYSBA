@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is blank if preferred billing address is set to Home. If the contact&apos;s Preferred Billing Address is set to Work/School, or if no preferred billing address is selected, it will reflect Organization Name. --></help>
+        <label><!-- Preferred Billing Organization Name --></label>
+        <name>SB_Preferred_Billing_Organization_Name__c</name>
+    </CustomFieldTranslation>

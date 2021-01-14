@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How many days after the person graduates before this button disappears from the page. Users can access the form on and after the Student Ext Days Before Grad date but cannot see the form after Student Ext Days After Grad has passed. This should be a posit --></help>
+        <label><!-- Student Ext Days After Graduation --></label>
+        <name>FS_Student_Ext_Days_After_Graduation__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<messaging:emailTemplate subject="One Final Reminder" recipientType="Contact" relatedToType="OrderApi__Sales_Order__c">
+    <messaging:htmlEmailBody >
+    Hi {!relatedTo.OrderApi__Contact__r.Name}, <br/>
+    We just wanted to send one final reminder about what you left in your shopping cart.<br/>
+   <u> Item(s) in your cart:</u> <br/>
+    <c:testshopping itemId="{!relatedTo.Id}" /><br/>
+  Complete your order today in order to receive your item(s).<br/>
+  Purchase Now <a href="{!relatedTo.FSP_FonMPP__Long_URL_Lightning__c}">Click Here</a> <br/>
+  Questions about your order?<br/>
+  Call our Member Resource Center at (800)582-2452 <br/><br/><br/>
+  Thank you, <br/>
+  The New York State Bar Association<br/>
+  One Elk Street<br/>
+  Albany, NY 12207<br/>
+  www.nysba.org<br/>
+ </messaging:htmlEmailBody>
+</messaging:emailTemplate>

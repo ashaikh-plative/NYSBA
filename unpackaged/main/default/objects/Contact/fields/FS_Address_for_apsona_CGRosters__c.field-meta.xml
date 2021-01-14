@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Address_for_apsona_CGRosters__c</fullName>
+    <description>Filed will print the value of  Mailing Street,Mailing City, Mailing State Province Code, Mailing Zip Code if preferred mailing address is not equal to Home else if its Home it will print Other City, Other State Province Code, Other Zip Code. This field is used in Apsona's CGRosters report. Do not Delete.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(FS_Preferred_Mailing_Address__c , 'Home'), 
+    OtherCity  &amp;", "&amp;  TEXT(OtherStateCode) &amp;" "&amp; OtherPostalCode, 
+         MailingStreet &amp;""&amp;  BR()&amp;""&amp; MailingCity &amp;", "&amp;  TEXT(MailingStateCode)  &amp;" "&amp; MailingPostalCode)</formula>
+    <inlineHelpText>Filed will print the value of  Mailing Street,Mailing City, Mailing State Province Code, Mailing Zip Code if preferred mailing address is not equal to Home else if its Home it will print Other City, Other State Province Code, Other Zip Code. This field is</inlineHelpText>
+    <label>Address for apsona CGRosters</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

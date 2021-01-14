@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?><CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>FS_AddToCalendarDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddToCalendarDescription</shortDescription>
+        <value>Please take a moment to add the Event Dates to your calendar</value>
+    </labels>
+    <labels>
+        <fullName>FS_Auto_Renew_Program_Agreement</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Auto-Renew Program Agreement</shortDescription>
+        <value>By joining the Auto-Renew Program we will automatically process your membership dues annually, and you understand that your credit card will be charged at the beginning of your month of expiration for your next year of membership at the then-current rate. If you have chosen the monthly payment option, your credit card will be charged at the beginning of each month without interruption. The program will continue until you cancel your participation. If you decide to cancel your membership prior to paying your dues in full for the entire year, then you will have to cover the remaining balance before renewing your membership again. If you wish to leave the program at any time, you can simply call 800.582.2452 in advance of your month of expiration.</value>
+    </labels>
+    <labels>
+        <fullName>FS_Email_Preferences_Text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Preferences Text</shortDescription>
+        <value>&lt;p&gt;To manage your email communications please go to an email received from NYSBA and click on Manage Preferences in the email footer. If you need assistance please contact &lt;a href="mailto:mrc@nysba.org" style="color:#0052cc;text-decoration:none" target="_blank"&gt;mrc@nysba.org(opens in new tab)&lt;/a&gt; or call 1-800-582-2452.&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>FS_General_Comm_Pref_Text</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General Comm Pref Text</shortDescription>
+        <value>Update your newsletter and notice preferences here.</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 1</shortDescription>
+        <value>New York</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_10</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 10</shortDescription>
+        <value>Nassau, Suffolk</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 11</shortDescription>
+        <value>Queens</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_12</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 12</shortDescription>
+        <value>Bronx</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_13</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 13</shortDescription>
+        <value>Richmond</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 2</shortDescription>
+        <value>Kings</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 3</shortDescription>
+        <value>Albany, Columbia, Greene, Rensselaer, Schoharie, Sullivan, Ulster</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 4</shortDescription>
+        <value>Clinton, Essex, Franklin, Hamilton, Montgomery, Saint Lawrence, Saratoga, Schenectady, Warren, Washington, Fulton</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 5</shortDescription>
+        <value>Herkimer, Jefferson, Lewis, Oneida, Onondaga, Oswego</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 6</shortDescription>
+        <value>Broome, Chenango, Chemung, Cortland, Delaware, Madison, Otsego, Schuyler, Tioga, Tompkins</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_7</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 7</shortDescription>
+        <value>Cayuga, Livingston, Monroe, Ontario, Seneca, Steuben, Wayne, Yates,</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_8</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 8</shortDescription>
+        <value>Cattaraugus, Chautauqua, Erie, Genesee, Niagara, Orleans, Wyoming</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_9</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 9</shortDescription>
+        <value>Dutchess, Orange, Putnam, Rockland, Westchester</value>
+    </labels>
+    <labels>
+        <fullName>FS_JD_Label_99</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS JD Label 99</shortDescription>
+        <value>Out of State, Foreign, APO-FPO, Unknown</value>
+    </labels>
+    <labels>
+        <fullName>FS_MPP_Use_Lightning_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS MPP Use Lightning URL</shortDescription>
+        <value>False</value>
+    </labels>
+    <labels>
+        <fullName>FS_MembershipStatusActive</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MembershipStatusActive</shortDescription>
+        <value>Active</value>
+    </labels>
+    <labels>
+        <fullName>FS_MembershipStatusInActive</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MembershipStatusInActive</shortDescription>
+        <value>In Active</value>
+    </labels>
+    <labels>
+        <fullName>FS_MembershipStatusInGrace</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MembershipStatusInGrace</shortDescription>
+        <value>In Grace</value>
+    </labels>
+    <labels>
+        <fullName>FS_MyDownloads_Date_of_Publication_Label</fullName>
+        <categories>MyDownloads</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date of Publication</shortDescription>
+        <value>Date of Publication</value>
+    </labels>
+    <labels>
+        <fullName>FS_MyDownloads_Date_of_Purchase_Label</fullName>
+        <categories>MyDownloads</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Date of Purchase</shortDescription>
+        <value>Date of Purchase</value>
+    </labels>
+    <labels>
+        <fullName>FS_MyDownloads_Download_Now_Label</fullName>
+        <categories>MyDownloads</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Download Now</shortDescription>
+        <value>Download Now</value>
+    </labels>
+    <labels>
+        <fullName>FS_MyDownloads_File_Type_Label</fullName>
+        <categories>MyDownloads</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File Type</shortDescription>
+        <value>File Type</value>
+    </labels>
+    <labels>
+        <fullName>FS_MyDownloads_Item_Label</fullName>
+        <categories>MyDownloads</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Item</shortDescription>
+        <value>Item</value>
+    </labels>
+    <labels>
+        <fullName>FS_MyDownloads_Purchased_Items</fullName>
+        <categories>MyDownloads</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Purchased Items</shortDescription>
+        <value>Purchased Items</value>
+    </labels>
+    <labels>
+        <fullName>FS_MyDownloads_Purchased_Items_Desc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS My Downloads Purchased Items Desc</shortDescription>
+        <value>&lt;p style="margin-top:15px;margin-bottom:15px;"&gt;If you do not see your purchases below, please go to &lt;a href="https://nysba.ce21.com/Account/MyAccount"&gt;My Learning Dashboard&lt;/a&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>FS_NewUserReg_OtherEmailExists</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS NewUserReg OtherEmailExists</shortDescription>
+        <value>The email address you entered has a record in our system, but it is not marked as your primary email. Please contact Member Resource Center.</value>
+    </labels>
+    <labels>
+        <fullName>FS_NewUserReg_PreferredEmailExists</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS NewUserReg PreferredEmailExists</shortDescription>
+        <value>Email is already registered. Please login or click on "Forgot Password?"</value>
+    </labels>
+    <labels>
+        <fullName>FS_NewUserReg_Privacy_Label</fullName>
+        <categories>Privacy Policy Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS NewUserReg Privacy Label</shortDescription>
+        <value>View Privacy Policy</value>
+    </labels>
+    <labels>
+        <fullName>FS_NewUserReg_Privacy_URL</fullName>
+        <categories>Privacy Policy URL</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS NewUserReg Privacy URL</shortDescription>
+        <value>https://staging.nysba.cliquedomains.com/privacy-policy/</value>
+    </labels>
+    <labels>
+        <fullName>FS_NewUserReg_TOS_Label</fullName>
+        <categories>Terms of Service Label</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS NewUserReg TOS Label</shortDescription>
+        <value>View Terms of Service</value>
+    </labels>
+    <labels>
+        <fullName>FS_NewUserReg_TOS_URL</fullName>
+        <categories>Terms of Service URL</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS NewUserReg TOS URL</shortDescription>
+        <value>https://staging.nysba.cliquedomains.com/terms-of-use/</value>
+    </labels>
+    <labels>
+        <fullName>FS_Portal_Section_Group_Contact_NYSBA_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS_Portal_Section_Group_Contact_NYSBA_Message</shortDescription>
+        <value>&lt;p&gt;You currently have an outstanding membership renewal invoice. Please click &lt;b&gt; &lt;a href = "https://portal.nysba.org/s/#/profile/duesrenewal"  style="color:blue;" &gt;here &lt;/a&gt;&lt;/b&gt;
+ to review/pay the invoice &amp; add/edit section memberships.&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>FS_Portal_Section_Group_No_Community_Group_Member</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS_Portal_Section_Group_No_Community_Group_Member</shortDescription>
+        <value>You don't have any Sections or Committees. Members can enhance their membership by joining Sections.</value>
+    </labels>
+    <labels>
+        <fullName>FS_Portal_Section_Group_No_Membership</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS_Portal_Section_Group_No_Membership</shortDescription>
+        <value>You are not eligible to join Sections or Committees without an active NYSBA membership. Please consider joining NYSBA in order to enhance your membership with Sections and Committees.</value>
+    </labels>
+    <labels>
+        <fullName>FS_PreAuthorizationPaymentBatchSize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS_PreAuthorizationPaymentBatchSize</shortDescription>
+        <value>50</value>
+    </labels>
+    <labels>
+        <fullName>FS_Profile_Page_Items_No_Item_Download_Message</fullName>
+        <categories>profile</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Profile Page Items No Item Download Message</shortDescription>
+        <value>No items available for download.
+
+&lt;p style="margin-top:15px;margin-bottom:15px;"&gt;If you do not see your purchases below, please go to &lt;a href="https://nysba.ce21.com/Account/MyAccount"&gt;My Learning Dashboard&lt;/a&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>FS_Roster_Community_Site</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roster Community Site</shortDescription>
+        <value>https://nysbauat-us-tdm-tso-15eb63ff4c6-1626e-16939b523e6.cs90.force.com/nysbaportal</value>
+    </labels>
+    <labels>
+        <fullName>FS_Roster_Id_Affiliation_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS_Roster_Id_Affiliation_List</shortDescription>
+        <value>a2i1U000001YmqyQAC</value>
+    </labels>
+    <labels>
+        <fullName>FS_Roster_Id_Organization_List</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roster Id Organization List</shortDescription>
+        <value>a2i1U000000mBSc</value>
+    </labels>
+    <labels>
+        <fullName>FS_Student_Extension_Button_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS Student Extension Button Header</shortDescription>
+        <value>Seems like you can apply for a student extension!</value>
+    </labels>
+    <labels>
+        <fullName>FS_SubscribeFail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS_SubscribeFail</shortDescription>
+        <value>The entered email is already subscribed.</value>
+    </labels>
+    <labels>
+        <fullName>FS_SubscribeFail_UserExists</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS_SubscribeFail_UserExists</shortDescription>
+        <value>An account already exists for the entered email. Please log in to edit your communication preferences.</value>
+    </labels>
+    <labels>
+        <fullName>FS_SubscribeSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FS_SubscribeSuccess</shortDescription>
+        <value>Thank you for subscribing to NYSBA!</value>
+    </labels>
+    <labels>
+        <fullName>FS_note_text_on_attorney_summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>note text on attorney summary</shortDescription>
+        <value>&lt;strong&gt;Note:&lt;/strong&gt; The New York State Bar Association membership structure is based on the &lt;strong&gt;calendar year&lt;/strong&gt; (January 1 - December 31). Prorated dues are available with an agreement for a full year's membership via one of the Recurring Payments (Auto-Renew) options on the following page. Otherwise, dues for the full calendar year are due upon application/renewal during any point of the calendar year.</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Category of bulk email messages aimed at attorneys outside of the United States --></help>
+        <label><!-- Global eNewsletter --></label>
+        <name>FS_Global_eNewsletter__c</name>
+    </CustomFieldTranslation>

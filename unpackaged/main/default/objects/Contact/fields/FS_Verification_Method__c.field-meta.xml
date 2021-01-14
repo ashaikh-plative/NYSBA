@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Verification_Method__c</fullName>
+    <externalId>false</externalId>
+    <label>Verification Method</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>OCA download match</fullName>
+                <default>false</default>
+                <label>OCA download match</label>
+            </value>
+            <value>
+                <fullName>OCA online</fullName>
+                <default>false</default>
+                <label>OCA online</label>
+            </value>
+            <value>
+                <fullName>OCA department where admitted</fullName>
+                <default>false</default>
+                <label>OCA department where admitted</label>
+            </value>
+            <value>
+                <fullName>Confirmed with other state</fullName>
+                <default>false</default>
+                <label>Confirmed with other state</label>
+            </value>
+            <value>
+                <fullName>Confirmed with other country</fullName>
+                <default>false</default>
+                <label>Confirmed with other country</label>
+            </value>
+            <value>
+                <fullName>Admission verification received from applicant</fullName>
+                <default>false</default>
+                <label>Admission verification received from applicant</label>
+            </value>
+            <value>
+                <fullName>OCA Download</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OCA Download</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

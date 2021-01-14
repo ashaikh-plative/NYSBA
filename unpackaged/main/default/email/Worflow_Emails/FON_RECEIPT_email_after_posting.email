@@ -1,0 +1,15 @@
+Dear {!OrderApi__Receipt__c.OrderApi__Contact__c} ,
+
+Thank you for your order.
+
+Please follow the link below to download a copy of your receipt.
+
+Receipt Link: https://portal.nysba.org/Orderapi__receipt?id={!OrderApi__Receipt__c.Id}
+
+If you have any questions regarding your receipt, please contact our Member Resource Center at 800-582-2452 or mrc@nysba.org
+
+Thank you,
+{!Organization.Name}
+
+
+One Elk Street, Albany, NY 12207, 518-463-3200 | www.nysba.org

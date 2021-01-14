@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Removal Reason of affiliation --></help>
+        <label><!-- Removal reason --></label>
+        <name>Removal_reason__c</name>
+        <picklistValues>
+            <masterLabel>Deceased</masterLabel>
+            <translation><!-- Deceased --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No longer with the firm</masterLabel>
+            <translation><!-- No longer with the firm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retired</masterLabel>
+            <translation><!-- Retired --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

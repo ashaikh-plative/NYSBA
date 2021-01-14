@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_InvalidChildContactOrParentAccount</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND($RecordType.Name = "Organization to Individual",  
+OR(ISBLANK(FS_Child_Contact__c),ISBLANK(FS_Parent_Account__c)))</errorConditionFormula>
+    <errorMessage>Parent Account and Child Contact Can not be blank</errorMessage>
+</ValidationRule>

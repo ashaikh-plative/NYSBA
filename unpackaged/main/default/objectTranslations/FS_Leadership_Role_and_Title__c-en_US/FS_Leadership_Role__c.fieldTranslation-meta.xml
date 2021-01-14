@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Leadership Role for the Community Group Member during this time period --></help>
+        <label><!-- Leadership Role --></label>
+        <name>FS_Leadership_Role__c</name>
+        <picklistValues>
+            <masterLabel>010 - President</masterLabel>
+            <translation><!-- 010 - President --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>020 - Chair</masterLabel>
+            <translation><!-- 020 - Chair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>030 - Chair-Elect</masterLabel>
+            <translation><!-- 030 - Chair-Elect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>040 - Vice-Chair</masterLabel>
+            <translation><!-- 040 - Vice-Chair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>050 - Treasurer</masterLabel>
+            <translation><!-- 050 - Treasurer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>060 - Financial Officer</masterLabel>
+            <translation><!-- 060 - Financial Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>070 - Secretary</masterLabel>
+            <translation><!-- 070 - Secretary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>080 - Delegate</masterLabel>
+            <translation><!-- 080 - Delegate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>090 - Alternate</masterLabel>
+            <translation><!-- 090 - Alternate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>110 - District Representative</masterLabel>
+            <translation><!-- 110 - District Representative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>120 - Former Chair</masterLabel>
+            <translation><!-- 120 - Former Chair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>130 - Ex-Officio Member</masterLabel>
+            <translation><!-- 130 - Ex-Officio Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>140 - Honorary Member</masterLabel>
+            <translation><!-- 140 - Honorary Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>160 - Other</masterLabel>
+            <translation><!-- 160 - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>170 - Internal (NYSBA) Group Liaison</masterLabel>
+            <translation><!-- 170 - Internal (NYSBA) Group Liaison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>180 - External Group Liaison</masterLabel>
+            <translation><!-- 180 - External Group Liaison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>190 - Non-Attorney Advisor</masterLabel>
+            <translation><!-- 190 - Non-Attorney Advisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>200 - Staff Liaison</masterLabel>
+            <translation><!-- 200 - Staff Liaison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>210 - CLE Staff Liaison</masterLabel>
+            <translation><!-- 210 - CLE Staff Liaison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>220 - Distribution List Only</masterLabel>
+            <translation><!-- 220 - Distribution List Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>999 - Unmapped Legacy Position</masterLabel>
+            <translation><!-- 999 - Unmapped Legacy Position --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

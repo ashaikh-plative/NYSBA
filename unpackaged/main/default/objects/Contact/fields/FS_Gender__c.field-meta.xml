@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Gender__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Gender Identity. Select all that apply</inlineHelpText>
+    <label>Gender Identity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Female</fullName>
+                <default>false</default>
+                <label>Female</label>
+            </value>
+            <value>
+                <fullName>Male</fullName>
+                <default>false</default>
+                <label>Male</label>
+            </value>
+            <value>
+                <fullName>Non-binary</fullName>
+                <default>false</default>
+                <label>Non-binary</label>
+            </value>
+            <value>
+                <fullName>Transgender</fullName>
+                <default>false</default>
+                <label>Transgender</label>
+            </value>
+            <value>
+                <fullName>Cisgender</fullName>
+                <default>false</default>
+                <label>Cisgender</label>
+            </value>
+            <value>
+                <fullName>Intersex</fullName>
+                <default>false</default>
+                <label>Intersex</label>
+            </value>
+            <value>
+                <fullName>Decline to Answer</fullName>
+                <default>false</default>
+                <label>Decline to Answer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Category of bulk email messages related to NYSBA Sections --></help>
+        <label><!-- Section Notices --></label>
+        <name>FS_Section_Member_Notice__c</name>
+    </CustomFieldTranslation>

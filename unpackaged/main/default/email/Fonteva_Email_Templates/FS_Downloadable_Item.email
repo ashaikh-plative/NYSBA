@@ -1,0 +1,14 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[<table cellpadding="0" width="500" cellspacing="0" id="topTable" height="450" style="font-family: &quot;Times New Roman&quot;; background-color: rgb(204, 204, 204);"><tbody><tr valign="top"><td style="background-color: rgb(255, 255, 255); vertical-align: top; height: 100px;"><font face="Arial, sans-serif">Dear&nbsp;{!OrderApi__Receipt_Line__c.OrderApi__Contact__c},<br><br></font><div style=""><font face="arial">Thank you for your order! Your Order Number is {!OrderApi__Receipt__c.OrderApi__Sales_Order__c}.</font><span style="font-family: arial; font-size: 12pt;">&nbsp;You can download your item here:&nbsp;{!OrderApi__Receipt_Line__c.FS_Download_URL__c}</span></div><div style="font-family: arial;"><font face="arial" style=""><br></font></div><div style="font-family: arial;">You can also access your downloads by logging into your account on <a href="http://portal.nysba.org/s/">NYSBA portal</a> and clicking on "My Downloads".</div><div style="font-family: arial; font-size: 16px;"><br></div><div style="font-family: arial; font-size: 16px;">Kind Regards,</div><div style="font-family: arial; font-size: 16px;">NYSBA</div></td></tr><tr valign="top"><td style="background-color: rgb(255, 255, 255); height: 5px;"></td></tr><tr valign="top"><td styleinsert="1" height="300" style="background-color: rgb(255, 255, 255); font-size: 12pt; font-family: arial;"><br></td></tr></tbody></table>]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

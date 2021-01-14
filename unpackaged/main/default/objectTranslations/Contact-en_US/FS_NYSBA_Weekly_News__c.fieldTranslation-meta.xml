@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Category of bulk email messages --></help>
+        <label><!-- NYSBA Weekly eNewsletter --></label>
+        <name>FS_NYSBA_Weekly_News__c</name>
+    </CustomFieldTranslation>

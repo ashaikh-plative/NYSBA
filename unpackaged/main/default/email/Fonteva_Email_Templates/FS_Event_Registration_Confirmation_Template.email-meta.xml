@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for Event registration confirmation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NYSBA_Letterhead</letterhead>
+    <name>FS Event Registration Confirmation Template</name>
+    <style>formalLetter</style>
+    <subject>NYSBA: Event Registration Confirmation</subject>
+    <textOnly>Dear {!EventApi__Attendee__c.EventApi__Full_Name__c},
+
+This is to confirm that you are registered for the following event:
+{!EventApi__Attendee__c.EventApi__Event__c}
+
+For webinar events, please log-in to your NYSBA Account on the day of the event, and click on your profile. Select “My Learning Dashboard” and find your event then select “Launch Webinar.”
+
+For more information about the event, visit the event page from here.
+View our cancellation policy here.
+
+Thank you,
+The {!Organization.Name}
+
+One Elk Street
+Albany, NY 12207
+518-463-3200
+www.nysba.org</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

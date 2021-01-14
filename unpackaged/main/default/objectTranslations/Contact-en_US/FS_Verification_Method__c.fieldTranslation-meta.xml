@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Verification Method --></label>
+        <name>FS_Verification_Method__c</name>
+        <picklistValues>
+            <masterLabel>Admission verification received from applicant</masterLabel>
+            <translation><!-- Admission verification received from applicant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed with other country</masterLabel>
+            <translation><!-- Confirmed with other country --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confirmed with other state</masterLabel>
+            <translation><!-- Confirmed with other state --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCA department where admitted</masterLabel>
+            <translation><!-- OCA department where admitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCA download match</masterLabel>
+            <translation><!-- OCA download match --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCA online</masterLabel>
+            <translation><!-- OCA online --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

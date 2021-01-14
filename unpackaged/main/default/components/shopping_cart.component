@@ -1,0 +1,14 @@
+<apex:component controller="cart" access="global">
+    <apex:attribute name="recordId" type="Id" description="Id of the receipt" assignTo="{!Record_Id}"/>
+    <apex:attribute name="record" type="OrderApi__Sales_Order__c" description="related to Shopping cart"/>
+    {!recordId}
+    <table border = "2" cellspacing = "5">
+        <apex:repeat value="{!itemlist}" var="o">
+        <tr>
+            <td>{!o}</td>
+            {!o}
+           
+        </tr>
+        </apex:repeat>       
+    </table>
+</apex:component>

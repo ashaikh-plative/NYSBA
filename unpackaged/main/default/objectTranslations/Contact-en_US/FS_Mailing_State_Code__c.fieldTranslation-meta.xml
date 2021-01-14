@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the state code for the work address --></help>
+        <label><!-- Work/School State Code --></label>
+        <name>FS_Mailing_State_Code__c</name>
+    </CustomFieldTranslation>

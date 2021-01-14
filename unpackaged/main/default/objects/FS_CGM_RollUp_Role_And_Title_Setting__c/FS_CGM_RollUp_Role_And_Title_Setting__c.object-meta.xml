@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Custom settings for Rollup Leadership Role and Title from the Leadership Role and Title Object to the Community Group Member Object for Active records</description>
+    <enableFeeds>false</enableFeeds>
+    <label>FS CGM RollUp Role And Title Setting</label>
+    <visibility>Public</visibility>
+</CustomObject>

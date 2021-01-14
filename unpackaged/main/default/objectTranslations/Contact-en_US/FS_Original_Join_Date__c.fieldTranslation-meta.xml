@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Original Join Date --></help>
+        <label><!-- Original Join Date --></label>
+        <name>FS_Original_Join_Date__c</name>
+    </CustomFieldTranslation>

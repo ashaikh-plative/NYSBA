@@ -1,0 +1,6 @@
+Hello Staff,
+
+{!OrderApi__Item__c.Name} has low inventory order notification. Please look into it ASAP.
+
+Thanks,
+NYSBA

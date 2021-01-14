@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Quantity of boxes shipped --></help>
+        <label><!-- Number of boxes Shipped --></label>
+        <name>FS_Number_of_boxes_Shipped__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Secondary Practice Setting Category --></label>
+        <name>FS_SecondaryPracticeSettingCategory__c</name>
+        <picklistValues>
+            <masterLabel>Business/Corporation (In-House)</masterLabel>
+            <translation><!-- Business/Corporation (In-House) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Court System</masterLabel>
+            <translation><!-- Court System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educational Institution</masterLabel>
+            <translation><!-- Educational Institution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government</masterLabel>
+            <translation><!-- Government --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Firm/Private Practice</masterLabel>
+            <translation><!-- Law Firm/Private Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miscellaneous/Other</masterLabel>
+            <translation><!-- Miscellaneous/Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Profit/Public Interest</masterLabel>
+            <translation><!-- Non-Profit/Public Interest --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

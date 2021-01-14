@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Primary_Affiliation_Record__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is automatically populated to link to the active Affiliation Record that is marked as Primary</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is automatically populated to link to the active Affiliation Record that is marked as Primary</inlineHelpText>
+    <label>Primary Affiliation Record</label>
+    <referenceTo>FS_Affiliation__c</referenceTo>
+    <relationshipLabel>Contacts (Primary Affiliation Record)</relationshipLabel>
+    <relationshipName>Contacts1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

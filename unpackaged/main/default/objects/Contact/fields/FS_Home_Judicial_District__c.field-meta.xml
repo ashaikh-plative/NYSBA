@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Home_Judicial_District__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OtherState = "New York",
+IF(FS_API_Other_County__c != '',
+IF(CONTAINS($Label.FS_JD_Label_1, FS_API_Other_County__c),'01',
+IF(CONTAINS($Label.FS_JD_Label_2, FS_API_Other_County__c),'02',
+IF(CONTAINS($Label.FS_JD_Label_3, FS_API_Other_County__c),'03',
+IF(CONTAINS($Label.FS_JD_Label_4, FS_API_Other_County__c),'04',
+IF(CONTAINS($Label.FS_JD_Label_5, FS_API_Other_County__c),'05',
+IF(CONTAINS($Label.FS_JD_Label_6, FS_API_Other_County__c),'06',
+IF(CONTAINS($Label.FS_JD_Label_7, FS_API_Other_County__c),'07',
+IF(CONTAINS($Label.FS_JD_Label_8, FS_API_Other_County__c),'08',
+IF(CONTAINS($Label.FS_JD_Label_9, FS_API_Other_County__c),'09',
+IF(CONTAINS($Label.FS_JD_Label_10, FS_API_Other_County__c),'10',
+IF(CONTAINS($Label.FS_JD_Label_11, FS_API_Other_County__c),'11',
+IF(CONTAINS($Label.FS_JD_Label_12, FS_API_Other_County__c),'12',
+IF(CONTAINS($Label.FS_JD_Label_13, FS_API_Other_County__c),'13',
+IF(CONTAINS($Label.FS_JD_Label_99, FS_API_Other_County__c),'99','--None--'))))))))))))))
+,'')
+, IF(OtherState = '','--None--','99'))</formula>
+    <label>Home Judicial District</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

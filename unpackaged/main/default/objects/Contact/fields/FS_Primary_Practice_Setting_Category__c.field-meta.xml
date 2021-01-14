@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Primary_Practice_Setting_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Practice Setting Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Business/Corporation (In-House)</fullName>
+                <default>false</default>
+                <label>Business/Corporation (In-House)</label>
+            </value>
+            <value>
+                <fullName>Court System</fullName>
+                <default>false</default>
+                <label>Court System</label>
+            </value>
+            <value>
+                <fullName>Law Firm/Private Practice</fullName>
+                <default>false</default>
+                <label>Law Firm/Private Practice</label>
+            </value>
+            <value>
+                <fullName>Educational Institution</fullName>
+                <default>false</default>
+                <label>Educational Institution</label>
+            </value>
+            <value>
+                <fullName>Non-Profit/Public Interest</fullName>
+                <default>false</default>
+                <label>Non-Profit/Public Interest</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous/Other</fullName>
+                <default>false</default>
+                <label>Miscellaneous/Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

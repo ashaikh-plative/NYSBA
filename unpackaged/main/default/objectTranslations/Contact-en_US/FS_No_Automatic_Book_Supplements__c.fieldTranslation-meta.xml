@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do not automatically send (and bill for) updates/supplements related to previous NYSBA book purchases --></help>
+        <label><!-- No Automatic Book Supplements --></label>
+        <name>FS_No_Automatic_Book_Supplements__c</name>
+    </CustomFieldTranslation>

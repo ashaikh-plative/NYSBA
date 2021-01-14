@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Staff_Only_Primary_Organization_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Staff Only - Primary Organization Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Decision Making Day Center</fullName>
+                <default>false</default>
+                <label>Decision Making Day Center</label>
+            </value>
+            <value>
+                <fullName>Hotel/Venue</fullName>
+                <default>false</default>
+                <label>Hotel/Venue</label>
+            </value>
+            <value>
+                <fullName>NYSBA Member Benefits Partner</fullName>
+                <default>false</default>
+                <label>NYSBA Member Benefits Partner</label>
+            </value>
+            <value>
+                <fullName>NYSBA Vendor</fullName>
+                <default>false</default>
+                <label>NYSBA Vendor</label>
+            </value>
+            <value>
+                <fullName>Sponsor - Financial</fullName>
+                <default>false</default>
+                <label>Sponsor - Financial</label>
+            </value>
+            <value>
+                <fullName>Sponsor - Non-Financial</fullName>
+                <default>false</default>
+                <label>Sponsor - Non-Financial</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

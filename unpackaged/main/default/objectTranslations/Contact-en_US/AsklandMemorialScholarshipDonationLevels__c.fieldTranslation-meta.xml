@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- AsklandMemorialScholarshipDonationLevels --></label>
+        <name>AsklandMemorialScholarshipDonationLevels__c</name>
+        <picklistValues>
+            <masterLabel>1000</masterLabel>
+            <translation><!-- 1000 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1500</masterLabel>
+            <translation><!-- 1500 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>500</masterLabel>
+            <translation><!-- 500 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

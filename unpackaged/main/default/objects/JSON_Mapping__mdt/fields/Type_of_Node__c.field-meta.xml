@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Node__c</fullName>
+    <description>Whether the current JSON node is a complex structure(Map), list of elements(List)  or a simple key-value pair(Simple)</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Type of Node</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Simple</fullName>
+                <default>true</default>
+                <label>Simple</label>
+            </value>
+            <value>
+                <fullName>Map</fullName>
+                <default>false</default>
+                <label>Map</label>
+            </value>
+            <value>
+                <fullName>List</fullName>
+                <default>false</default>
+                <label>List</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

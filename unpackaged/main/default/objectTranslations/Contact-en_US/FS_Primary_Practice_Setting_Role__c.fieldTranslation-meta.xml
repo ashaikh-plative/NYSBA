@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Primary Practice Setting Role --></label>
+        <name>FS_Primary_Practice_Setting_Role__c</name>
+        <picklistValues>
+            <masterLabel>Adjunct Professor</masterLabel>
+            <translation><!-- Adjunct Professor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative Law Judge/Hearing Officer</masterLabel>
+            <translation><!-- Administrative Law Judge/Hearing Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrator/Administrative Staff</masterLabel>
+            <translation><!-- Administrator/Administrative Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Associate</masterLabel>
+            <translation><!-- Associate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney General</masterLabel>
+            <translation><!-- Attorney General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chief Legal Officer</masterLabel>
+            <translation><!-- Chief Legal Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City Corporation Counsel</masterLabel>
+            <translation><!-- City Corporation Counsel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Court Attorney</masterLabel>
+            <translation><!-- Court Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dean</masterLabel>
+            <translation><!-- Dean --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>District Attorney/Prosecutor</masterLabel>
+            <translation><!-- District Attorney/Prosecutor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversity Coordinator</masterLabel>
+            <translation><!-- Diversity Coordinator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Director</masterLabel>
+            <translation><!-- Executive Director --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial Officer</masterLabel>
+            <translation><!-- Financial Officer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Counsel</masterLabel>
+            <translation><!-- General Counsel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House Counsel</masterLabel>
+            <translation><!-- In-House Counsel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Independent Contractor</masterLabel>
+            <translation><!-- Independent Contractor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judge</masterLabel>
+            <translation><!-- Judge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Clerk</masterLabel>
+            <translation><!-- Law Clerk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Librarian</masterLabel>
+            <translation><!-- Law Librarian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Librarian</masterLabel>
+            <translation><!-- Librarian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lobbyist</masterLabel>
+            <translation><!-- Lobbyist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Managing Partner</masterLabel>
+            <translation><!-- Managing Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Of Counsel</masterLabel>
+            <translation><!-- Of Counsel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paralegal</masterLabel>
+            <translation><!-- Paralegal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner/Shareholder</masterLabel>
+            <translation><!-- Partner/Shareholder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President/CEO</masterLabel>
+            <translation><!-- President/CEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Principal</masterLabel>
+            <translation><!-- Principal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Bono Services Administrator</masterLabel>
+            <translation><!-- Pro Bono Services Administrator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professor</masterLabel>
+            <translation><!-- Professor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Defender</masterLabel>
+            <translation><!-- Public Defender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporter</masterLabel>
+            <translation><!-- Reporter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Associate</masterLabel>
+            <translation><!-- Senior Associate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solo Practitioner</masterLabel>
+            <translation><!-- Solo Practitioner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staff Attorney</masterLabel>
+            <translation><!-- Staff Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Student</masterLabel>
+            <translation><!-- Student --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superintendent</masterLabel>
+            <translation><!-- Superintendent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Teacher/Educator</masterLabel>
+            <translation><!-- Teacher/Educator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volunteer/Volunteer Leader</masterLabel>
+            <translation><!-- Volunteer/Volunteer Leader --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

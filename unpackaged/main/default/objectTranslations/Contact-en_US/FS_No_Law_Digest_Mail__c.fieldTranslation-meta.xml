@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Do not send a hard copy mailing of the NYSBA Law Digest --></help>
+        <label><!-- No Law Digest Mail --></label>
+        <name>FS_No_Law_Digest_Mail__c</name>
+    </CustomFieldTranslation>

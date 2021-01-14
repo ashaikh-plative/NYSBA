@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Dietary Information --></label>
+        <name>FS_DietaryInformation__c</name>
+        <picklistValues>
+            <masterLabel>Allergy-Nuts</masterLabel>
+            <translation><!-- Allergy-Nuts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergy-Other (please specify)</masterLabel>
+            <translation><!-- Allergy-Other (please specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergy-Peanuts Only</masterLabel>
+            <translation><!-- Allergy-Peanuts Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allergy-Shellfish</masterLabel>
+            <translation><!-- Allergy-Shellfish --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gluten Free</masterLabel>
+            <translation><!-- Gluten Free --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lactose Intolerant</masterLabel>
+            <translation><!-- Lactose Intolerant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (please specify)</masterLabel>
+            <translation><!-- Other (please specify) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pescatarian</masterLabel>
+            <translation><!-- Pescatarian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegan</masterLabel>
+            <translation><!-- Vegan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vegetarian</masterLabel>
+            <translation><!-- Vegetarian --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

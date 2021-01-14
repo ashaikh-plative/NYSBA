@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Contact affiliated to the company account --></help>
+        <label><!-- Child Contact --></label>
+        <name>FS_Child_Contact__c</name>
+        <relationshipLabel><!-- Parent Affiliations --></relationshipLabel>
+    </CustomFieldTranslation>

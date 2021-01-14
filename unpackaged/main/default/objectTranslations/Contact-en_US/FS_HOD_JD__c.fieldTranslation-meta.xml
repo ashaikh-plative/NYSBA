@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This formula field pulls from the Work/School Judicial District as long as the HOD JD Override field is not populated. --></help>
+        <label><!-- HOD JD --></label>
+        <name>FS_HOD_JD__c</name>
+    </CustomFieldTranslation>

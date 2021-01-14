@@ -1,0 +1,13 @@
+Dear {!OrderApi__Receipt__c.OrderApi__Contact__c},
+
+Your refund has been processed in the amount of {!OrderApi__Receipt__c.OrderApi__Total__c}.  If you paid with a credit card, please allow 2-3 business days for your transaction to be refunded. If you paid by check, the refund check will be issued within 3-5 business days and sent by mail.
+
+Receipt Link -  https://fonteva-solutions-developer-edition.na31.force.com/Orderapi__receipt?id={!OrderApi__Receipt__c.Id} 
+
+If you have any questions or concerns, please feel free to contact our Member Resource Center at 800-582-2452 or mrc@nysba.org
+
+Thank you,
+{!Organization.Name}
+
+
+One Elk Street, Albany, NY 12207, 518-463-3200 | www.nysba.org

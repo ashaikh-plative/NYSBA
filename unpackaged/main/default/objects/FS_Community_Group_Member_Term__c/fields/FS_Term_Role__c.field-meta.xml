@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Term_Role__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Community group member's Role for this term.</inlineHelpText>
+    <label>Term Role</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>100 - Member</fullName>
+                <default>true</default>
+                <label>100 - Member</label>
+            </value>
+            <value>
+                <fullName>010 - President</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>010 - President</label>
+            </value>
+            <value>
+                <fullName>020 - Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>020 - Chair</label>
+            </value>
+            <value>
+                <fullName>030 - Chair-Elect</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>030 - Chair-Elect</label>
+            </value>
+            <value>
+                <fullName>040 - Vice-Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>040 - Vice-Chair</label>
+            </value>
+            <value>
+                <fullName>050 - Treasurer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>050 - Treasurer</label>
+            </value>
+            <value>
+                <fullName>060 - Financial Officer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>060 - Financial Officer</label>
+            </value>
+            <value>
+                <fullName>070 - Secretary</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>070 - Secretary</label>
+            </value>
+            <value>
+                <fullName>080 - Delegate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>080 - Delegate</label>
+            </value>
+            <value>
+                <fullName>090 - Alternate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>090 - Alternate</label>
+            </value>
+            <value>
+                <fullName>110 - District Representative</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>110 - District Representative</label>
+            </value>
+            <value>
+                <fullName>120 - Former Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>120 - Former Chair</label>
+            </value>
+            <value>
+                <fullName>130 - Ex-Officio Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>130 - Ex-Officio Member</label>
+            </value>
+            <value>
+                <fullName>140 - Honorary Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>140 - Honorary Member</label>
+            </value>
+            <value>
+                <fullName>150 - Student Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>150 - Student Member</label>
+            </value>
+            <value>
+                <fullName>160 - Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>160 - Other</label>
+            </value>
+            <value>
+                <fullName>170 - Internal (NYSBA) Group Liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>170 - Internal (NYSBA) Group Liaison</label>
+            </value>
+            <value>
+                <fullName>180 - External Group Liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>180 - External Group Liaison</label>
+            </value>
+            <value>
+                <fullName>190 - Non-Attorney Advisor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>190 - Non-Attorney Advisor</label>
+            </value>
+            <value>
+                <fullName>200 - Staff Liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>200 - Staff Liaison</label>
+            </value>
+            <value>
+                <fullName>210 - CLE Staff Liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>210 - CLE Staff Liaison</label>
+            </value>
+            <value>
+                <fullName>220 - Distribution List Only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>220 - Distribution List Only</label>
+            </value>
+            <value>
+                <fullName>999 - Unmapped Legacy Position</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>999 - Unmapped Legacy Position</label>
+            </value>
+            <value>
+                <fullName>Alternate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Alternate</label>
+            </value>
+            <value>
+                <fullName>CLE Staff Liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CLE Staff Liaison</label>
+            </value>
+            <value>
+                <fullName>Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chair</label>
+            </value>
+            <value>
+                <fullName>Chair-Elect</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chair-Elect</label>
+            </value>
+            <value>
+                <fullName>Co-Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Co-Chair</label>
+            </value>
+            <value>
+                <fullName>Council Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Council Chair</label>
+            </value>
+            <value>
+                <fullName>Council Co-Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Council Co-Chair</label>
+            </value>
+            <value>
+                <fullName>Council Director</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Council Director</label>
+            </value>
+            <value>
+                <fullName>Council Past Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Council Past Chair</label>
+            </value>
+            <value>
+                <fullName>Council Vice Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Council Vice Chair</label>
+            </value>
+            <value>
+                <fullName>Delegate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Delegate</label>
+            </value>
+            <value>
+                <fullName>Distribution List Only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Distribution List Only</label>
+            </value>
+            <value>
+                <fullName>District Representative</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>District Representative</label>
+            </value>
+            <value>
+                <fullName>Ex-Officio Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ex-Officio Member</label>
+            </value>
+            <value>
+                <fullName>Executive Committee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Executive Committee</label>
+            </value>
+            <value>
+                <fullName>External Group Liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>External Group Liaison</label>
+            </value>
+            <value>
+                <fullName>Financial Officer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Financial Officer</label>
+            </value>
+            <value>
+                <fullName>Former Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Former Chair</label>
+            </value>
+            <value>
+                <fullName>Honorary Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Honorary Member</label>
+            </value>
+            <value>
+                <fullName>Internal (NYSBA) Group Liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal (NYSBA) Group Liaison</label>
+            </value>
+            <value>
+                <fullName>MSS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MSS</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Member</label>
+            </value>
+            <value>
+                <fullName>Non-Attorney Advisor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Non-Attorney Advisor</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>President</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>President</label>
+            </value>
+            <value>
+                <fullName>Secretary</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Secretary</label>
+            </value>
+            <value>
+                <fullName>Staff</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Staff</label>
+            </value>
+            <value>
+                <fullName>Staff Liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Staff Liaison</label>
+            </value>
+            <value>
+                <fullName>Student Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Member</label>
+            </value>
+            <value>
+                <fullName>Treasurer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Treasurer</label>
+            </value>
+            <value>
+                <fullName>Unmapped Legacy Position</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Unmapped Legacy Position</label>
+            </value>
+            <value>
+                <fullName>Vice Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vice Chair</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

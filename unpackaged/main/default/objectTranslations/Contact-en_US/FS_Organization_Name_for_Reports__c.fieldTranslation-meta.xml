@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For Report- If Primary Affiliation is not null then print it else print Organization Name --></help>
+        <label><!-- Organization Name for Reports --></label>
+        <name>FS_Organization_Name_for_Reports__c</name>
+    </CustomFieldTranslation>

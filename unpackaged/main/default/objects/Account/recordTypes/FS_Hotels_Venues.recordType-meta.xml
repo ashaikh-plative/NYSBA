@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Hotels_Venues</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>FS_Hotels_Venue_Compact</compactLayoutAssignment>
+    <label>Hotels/Venues</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar - Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Budget_Cycle__c</picklist>
+        <values>
+            <fullName>CUSTOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FY</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DonorApi__Annual_Giving_Total__c</picklist>
+        <values>
+            <fullName>%24100k - %24500k</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24100mil%2E - %24500mil%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2410mil%2E - %2425mil%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%241mil%2E - %243mil%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2425mil%2E - %2450mil%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%243mil%2E - %245mil%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24500k - %241mil%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2450mil%2E - %24100mil%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%245mil%2E - %2410mil%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Less than %24100k</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>More than %24500mil%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DonorApi__Classification__c</picklist>
+        <values>
+            <fullName>Household</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Person</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DonorApi__Funding_Cycle__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biannual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DonorApi__Household_Default_Greeting_Type__c</picklist>
+        <values>
+            <fullName>Household Formal Greeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household Informal Greeting</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DonorApi__Next_Funding_Cycle_Month__c</picklist>
+        <values>
+            <fullName>April</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>August</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>December</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>February</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>January</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>July</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>June</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>March</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>May</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>November</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>October</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>September</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Account_PublicOfficialUser__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unsure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Acct_PublicOfficialConfirmationStatus__c</picklist>
+        <values>
+            <fullName>Caution %28system flag%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No %28confirmed%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes %28confirmed%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_BarType__c</picklist>
+        <values>
+            <fullName>Ethnic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Special-Purpose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women%27s Bar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_FrequencyofElections__c</picklist>
+        <values>
+            <fullName>Every Other Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Every Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Handicap_Accessible__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unconfirmed</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes Provisionally</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_OrgSizeAttorneysinOrganization__c</picklist>
+        <values>
+            <fullName>02-05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06-09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10-19</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20-49</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50-99</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOLO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_OrganizationSizeSource__c</picklist>
+        <values>
+            <fullName>Primary Contact%2FManager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Match</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Organization_Practice_Interests__c</picklist>
+        <values>
+            <fullName>Administrative Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adoption %26 Foster Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alternative Dispute Resolution %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animal Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antitrust %26 Trade %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appellate Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arbitration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attorney Escrow%2FIOLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attorney Wellness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attorneys of Color</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bankruptcy%2FInsolvency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing %26 Law Office Economics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business %26 Corporate %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Organizations%2FCorporate Structure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Career</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Children %26 Juvenile Justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Civic Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Civil Litigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Civility %26 Client Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Litigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Condominiums %26 Cooperatives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conflicts of Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contracts %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copyright</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate%2FBusiness Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creditors%27 Rights%2FCollections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Criminal Defense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Criminal Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Criminal Prosecution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cryptocurrencies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cyber Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DWI%2FDUI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Privacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Derivatives%2FStructured Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disability %26 Special Needs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diversity%2C Inclusion %26 Civil Rights %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elder Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Benefits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment%2C Arts %26 Sports %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental %26 Energy %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equal Opportunity Employment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estate Planning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ethics %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Court Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal Litigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance %26 Financial Services %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food%2C Drug %26 Cosmetics %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreclosures%2C Liens %26 Workouts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Franchise Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Practice %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guardianship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Immigration Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-House Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance Defense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intellectual Property Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet %26 Technology Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Judiciary %26 Courts %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LGBTQ%2B Legal Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor %26 Employment %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landlord%2FTenant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law Practice Management %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leases %26 Leasing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Libel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Litigation %26 Trials %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lobbying %26 Legislative Affairs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing %26 Business Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matrimonial%2FDomestic Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mediation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medicaid %26 Medicare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Malpractice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mergers %26 Acquisition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Municipal Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY Rules of Professional Conduct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Lawyers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York Civil Practice %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonprofit Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal or Property Injury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plaintiffs Representation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Practice Skills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro Bono %26 Public Good %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro Bono%2FAccess to Justice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Probate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Liability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Development %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Professional Liability %26 Legal Malpractice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Sector</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Utilities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Property Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Risk Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Securities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senior Lawyers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Security Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solo%2FSmall Firm Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staffing %26 Human Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Start-Ups %26 Ventures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Starting or Closing a Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Substance abuse control</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology %26 Practice Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology competence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Torts %26 Insurance %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Secrets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trademarks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trust Administration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trusts %26 Estates Law %28General%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vehicle%2C Traffic%2C and Transportation Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veterans%27 Legal Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women and the Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workers%27 Compensation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zoning%2C Planning %26 Land Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>e-Discovery</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Practice_Setting_Type__c</picklist>
+        <values>
+            <fullName>Administrative Law Courts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arbitration%2FMediation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bar Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boutique %28single focus%29 Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College%2FUniversity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Goods%2FRetail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decision Making Day Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary%2FMiddle%2FJr%2E High School %28K-8%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal %28U%2ES%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign %28outside of U%2ES%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign Courts %28outside of U%2ES%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full-Service %28Multi-Department%29 Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Practice Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare %28for profit%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare %28non-profit%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School %289-12%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel%2FVenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Courts%2FTribunals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor Union</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Services Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Library</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local%2FMunicipal%2FCounty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media%2FEntertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NYSBA Member Benefits Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NYSBA Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Law Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online legal services provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Association %28not bar%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Non-Profit %28non-legal services%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Utilities%2FEnergy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsor - Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsor - Non-Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor%2FSupplier of services for attorneys</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_PreferredMailingAddressforDirectory__c</picklist>
+        <values>
+            <fullName>Bar Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Primary_Organization_Category__c</picklist>
+        <values>
+            <fullName>Business%2FCorporation %28In-House%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Court System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Educational Institution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law Firm%2FPrivate Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miscellaneous%2FOther</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Profit%2FPublic Interest</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Primary_Organization_Type__c</picklist>
+        <values>
+            <fullName>Administrative Law Courts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arbitration%2FMediation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bar Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boutique %28single focus%29 Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College%2FUniversity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer Goods%2FRetail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary%2FMiddle%2FJr%2E High School %28K-8%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Federal %28U%2ES%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign %28outside of U%2ES%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foreign Courts %28outside of U%2ES%2E%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full-Service %28Multi-Department%29 Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Practice Law Firm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare %28for profit%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare %28non-profit%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School %289-12%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International Courts%2FTribunals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labor Union</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Law School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal Services Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Library</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local%2FMunicipal%2FCounty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media%2FEntertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Military</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Law Related</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online legal services provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Association %28not bar%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Non-Profit %28non-legal services%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Utilities%2FEnergy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendor%2FSupplier of services for attorneys</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_School_Type__c</picklist>
+        <values>
+            <fullName>Law School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>School %28K-12%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_ShowinDirectory__c</picklist>
+        <values>
+            <fullName>Do Not Show in Bar Directory</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Show in Bar Directory</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FS_Staff_Only_Primary_Organization_Type__c</picklist>
+        <values>
+            <fullName>Decision Making Day Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel%2FVenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NYSBA Member Benefits Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NYSBA Vendor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsor - Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsor - Non-Financial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GDO_Data_Region__c</picklist>
+        <values>
+            <fullName>EMEA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GDO_Data_Type__c</picklist>
+        <values>
+            <fullName>Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Membership_Types__c</picklist>
+        <values>
+            <fullName>FON_Associate Membership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FON_Company Membership</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OrderApi__Privacy_Settings__c</picklist>
+        <values>
+            <fullName>private</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>unlisted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Member</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>smartystreets__BillingVerificationUsed__c</picklist>
+        <values>
+            <fullName>Google Maps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartyStreets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>smartystreets__ShippingVerificationUsed__c</picklist>
+        <values>
+            <fullName>Google Maps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartyStreets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Filed will print the value of  Mailing Street,Mailing City, Mailing State Province Code, Mailing Zip Code if preferred mailing address is not equal to Home else if its Home it will print Other City, Other State Province Code, Other Zip Code. This field is --></help>
+        <label><!-- Address for apsona CGRosters --></label>
+        <name>FS_Address_for_apsona_CGRosters__c</name>
+    </CustomFieldTranslation>

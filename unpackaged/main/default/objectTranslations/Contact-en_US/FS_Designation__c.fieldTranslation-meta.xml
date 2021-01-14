@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Designation --></label>
+        <name>FS_Designation__c</name>
+        <picklistValues>
+            <masterLabel>Advocate</masterLabel>
+            <translation><!-- Advocate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barrister</masterLabel>
+            <translation><!-- Barrister --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPA</masterLabel>
+            <translation><!-- CPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D.D.S.</masterLabel>
+            <translation><!-- D.D.S. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Esq.</masterLabel>
+            <translation><!-- Esq. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>J.D.</masterLabel>
+            <translation><!-- J.D. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LL.M.</masterLabel>
+            <translation><!-- LL.M. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M.D.</masterLabel>
+            <translation><!-- M.D. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P.C.</masterLabel>
+            <translation><!-- P.C. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ph.D.</masterLabel>
+            <translation><!-- Ph.D. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QC</masterLabel>
+            <translation><!-- QC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RN</masterLabel>
+            <translation><!-- RN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ret.</masterLabel>
+            <translation><!-- Ret. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solicitor</masterLabel>
+            <translation><!-- Solicitor --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

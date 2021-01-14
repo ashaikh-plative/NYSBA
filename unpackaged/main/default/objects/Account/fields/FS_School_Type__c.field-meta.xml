@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_School_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>School Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Law School</fullName>
+                <default>false</default>
+                <label>Law School</label>
+            </value>
+            <value>
+                <fullName>School (K-12)</fullName>
+                <default>false</default>
+                <label>School (K-12)</label>
+            </value>
+            <value>
+                <fullName>Colleges/Universities</fullName>
+                <default>false</default>
+                <label>Colleges/Universities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

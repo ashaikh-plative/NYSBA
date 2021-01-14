@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Law School --></label>
+        <name>FS_Law_School__c</name>
+        <relationshipLabel><!-- Contacts (Law School) --></relationshipLabel>
+    </CustomFieldTranslation>

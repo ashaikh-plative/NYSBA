@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- ePayment tied to the order fulfillment --></help>
+        <label><!-- ePayment --></label>
+        <name>FS_ePayment__c</name>
+        <relationshipLabel><!-- Orders Fulfillment --></relationshipLabel>
+    </CustomFieldTranslation>

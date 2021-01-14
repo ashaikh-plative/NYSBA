@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Other Salutation(if applicable) --></help>
+        <label><!-- Other Salutation --></label>
+        <name>FS_Other_Salutation__c</name>
+    </CustomFieldTranslation>

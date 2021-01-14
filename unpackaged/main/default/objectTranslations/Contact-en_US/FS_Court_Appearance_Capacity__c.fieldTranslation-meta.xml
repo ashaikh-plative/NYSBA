@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Court Appearance Capacity (if applicable --></label>
+        <name>FS_Court_Appearance_Capacity__c</name>
+        <picklistValues>
+            <masterLabel>Civil Defense</masterLabel>
+            <translation><!-- Civil Defense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil Plaintiffs</masterLabel>
+            <translation><!-- Civil Plaintiffs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Court Attorney</masterLabel>
+            <translation><!-- Court Attorney --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Criminal Defense</masterLabel>
+            <translation><!-- Criminal Defense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Criminal Prosecution</masterLabel>
+            <translation><!-- Criminal Prosecution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judge</masterLabel>
+            <translation><!-- Judge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

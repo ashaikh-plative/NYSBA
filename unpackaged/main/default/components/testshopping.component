@@ -1,0 +1,9 @@
+<apex:component controller="testcart" access="global">
+    <apex:attribute name="itemId" type="Id" description="Id of the item" assignTo="{!item_Id}"/>
+        <apex:repeat value="{!salesorder}" var="o">
+       
+            {!o.OrderApi__Item__r.Name}<br/>
+       
+        </apex:repeat>       
+ 
+</apex:component>

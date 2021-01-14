@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demo Scenario</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demo Scenarios</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Demo Scenario Layout</layout>
+        <sections>
+            <label><!-- Script --></label>
+            <section>Script</section>
+        </sections>
+        <sections>
+            <label><!-- URL References --></label>
+            <section>URL References</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

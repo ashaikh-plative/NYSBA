@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>hub+clique@fusionspan.com</contactEmail>
+    <label>Clique</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:8090/</callbackUrl>
+        <consumerKey>3MVG9FG3dvS828gL.pckzEFAegWcSSVAY.X6VMwoMCbSuFcRryYPStk3VP4hLBaHf9n04N23x4W39HPmtmqlx</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <scopes>Api</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>

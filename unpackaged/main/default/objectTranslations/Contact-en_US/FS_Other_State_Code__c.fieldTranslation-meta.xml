@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the two digit State code for the Home Address --></help>
+        <label><!-- Home State Code --></label>
+        <name>FS_Other_State_Code__c</name>
+    </CustomFieldTranslation>

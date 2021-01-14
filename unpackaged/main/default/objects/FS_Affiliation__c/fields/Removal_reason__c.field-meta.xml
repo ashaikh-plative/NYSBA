@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Removal_reason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Removal Reason of affiliation</inlineHelpText>
+    <label>Removal reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Deceased</fullName>
+                <default>false</default>
+                <label>Deceased</label>
+            </value>
+            <value>
+                <fullName>No longer with the firm</fullName>
+                <default>false</default>
+                <label>No longer with the firm</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Retired</fullName>
+                <default>false</default>
+                <label>Retired</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

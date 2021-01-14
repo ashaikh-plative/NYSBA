@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Charge for the installment --></help>
+        <label><!-- Charges --></label>
+        <name>FS_Charges__c</name>
+    </CustomFieldTranslation>

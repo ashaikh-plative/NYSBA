@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Do you hold CRS designation for &gt;1yr --></label>
+        <name>Do_you_hold_CRS_designation_for_1yr__c</name>
+    </CustomFieldTranslation>

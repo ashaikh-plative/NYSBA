@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- PMN Business referral Track --></label>
+        <name>PMN_Business_referral_Track__c</name>
+        <picklistValues>
+            <masterLabel>From a client = 2 points each</masterLabel>
+            <translation><!-- From a client = 2 points each --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To/from a non-Council member = 5 points each</masterLabel>
+            <translation><!-- To/from a non-Council member = 5 points each --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To/from another national Council member = 10 points each</masterLabel>
+            <translation><!-- To/from another national Council member = 10 points each --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

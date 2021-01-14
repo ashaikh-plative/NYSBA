@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Bulk email messages from The New York Bar Foundation --></help>
+        <label><!-- New York Bar Foundation Emails --></label>
+        <name>FS_The_New_York_Bar_Foundation_Notice__c</name>
+    </CustomFieldTranslation>

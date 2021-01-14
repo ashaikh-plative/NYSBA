@@ -1,0 +1,18 @@
+<table border="0" cellpadding="5" width="600" cellspacing="5" height="400" >
+<tr valign="top" height="50" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<table border="0" cellpadding="5" width="600" cellspacing="5" height="400"><tbody><tr valign="top" height="50"><td teditid="c1r1" aeditid="c1r1" locked="0" style="background-color: rgb(255, 255, 255); font-size: 12pt;">Hi&nbsp;{!EventApi__Attendee__c.EventApi__Full_Name__c},<br><br>Thanks for attending the event. Here is the link for the survey. Please fill in the form since your feedback is more valuable to us. 
+<br><br><a href="https://nysba--nysbauat--c.cs90.content.force.com/email/{!EventApi__Event__c.FS_Survey_Link__c}" style="font-family: Arial, sans-serif; letter-spacing: -0.07px; white-space: pre-wrap;">Survey Link </a><span style="color: rgb(23, 43, 77); font-family: Arial, sans-serif; letter-spacing: -0.07px; white-space: pre-wrap;">
+
+Regards,
+NYSBA</span></td></tr></tbody></table>]]></td>
+</tr>
+<tr valign="top" height="300" >
+<td tEditID="c1r2" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r2" locked="0" >
+<![CDATA[]]></td>
+</tr>
+<tr valign="top" height="50" >
+<td tEditID="c1r3" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r3" locked="0" >
+<![CDATA[]]></td>
+</tr>
+</table>

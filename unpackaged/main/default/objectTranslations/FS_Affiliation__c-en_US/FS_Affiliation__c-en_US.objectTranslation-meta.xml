@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Affiliation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Affiliations</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Affiliation Layout</layout>
+        <sections>
+            <label><!-- Affiliation Details --></label>
+            <section>Affiliation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Ind-to-Ind Layout</layout>
+        <sections>
+            <label><!-- Affiliation Details --></label>
+            <section>Affiliation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Org-to-Ind Layout</layout>
+        <sections>
+            <label><!-- Affiliation Details --></label>
+            <section>Affiliation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Org-to-Org Layout</layout>
+        <sections>
+            <label><!-- Affiliation Details --></label>
+            <section>Affiliation Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Individual to Individual --></label>
+        <name>FS_Individual_to_Individual</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Organization to Individual --></label>
+        <name>FS_Organization_to_Individual</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Organization to Organization --></label>
+        <name>FS_Organization_to_Organization</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Parent Account and Child Contact Can not be blank --></errorMessage>
+        <name>FS_InvalidChildContactOrParentAccount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status field has to be active to set primary affiliation flag. --></errorMessage>
+        <name>FS_PrimaryAffiliationForInActiveRecord</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status cannot be saved as Active if End Date is in the past --></errorMessage>
+        <name>FS_Status_Cant_Be_Active_after_End_Date</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Examples: Mr., Ms., Hon., Dr., Prof., Lic., Col., etc. --></help>
+        <label><!-- Preferred Prefix --></label>
+        <name>FS_Preferred_Prefix__c</name>
+    </CustomFieldTranslation>

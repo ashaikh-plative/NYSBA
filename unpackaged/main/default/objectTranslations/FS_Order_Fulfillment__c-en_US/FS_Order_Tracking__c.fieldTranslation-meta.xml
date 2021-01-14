@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Order Tracking record tied to the fulfillment record --></help>
+        <label><!-- Order Tracking --></label>
+        <name>FS_Order_Tracking__c</name>
+        <relationshipLabel><!-- Orders Fulfillment --></relationshipLabel>
+    </CustomFieldTranslation>

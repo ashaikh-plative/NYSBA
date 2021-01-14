@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Bar Directory Role --></label>
+        <name>FS_Bar_Directory_Role__c</name>
+        <picklistValues>
+            <masterLabel>Bar Executive</masterLabel>
+            <translation><!-- Bar Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President</masterLabel>
+            <translation><!-- President --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>President-Elect</masterLabel>
+            <translation><!-- President-Elect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vice President</masterLabel>
+            <translation><!-- Vice President --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

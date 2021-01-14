@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Template RECEIPT-Refund Notification to the Customer for New Refund</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NYSBA_Letterhead</letterhead>
+    <name>FS RECEIPT-Refund Notification to the Customer for New Refund</name>
+    <style>formalLetter</style>
+    <subject>Refund Confirmation</subject>
+    <textOnly>Dear {!OrderApi__Receipt__c.OrderApi__Contact__c},
+
+Your refund has been processed in the amount of $ {!OrderApi__Receipt__c.OrderApi__Total__c} USD. If you paid with a credit card, please allow 2-3 business days for your transaction to be refunded. If you paid by check, the refund check will be issued within 3-5 business days and sent by mail.
+
+Receipt Link - https://nysba--nysbauat--lte.cs90.visual.force.com/apex/ViewDocument?recordId={!OrderApi__Receipt__c.Id}
+
+If you have any questions or concerns, please feel free to contact our Member Resource Center at 800-582-2452 or mrc@nysba.org.
+
+Thank you,
+The {!Organization.Name}
+
+One Elk Street
+Albany, NY 12207
+518-463-3200
+www.nysba.org</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Primary_Practice_Setting_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary Practice Setting Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>FS_Primary_Practice_Setting_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Staff Attorney</fullName>
+                <default>false</default>
+                <label>Staff Attorney</label>
+            </value>
+            <value>
+                <fullName>Public Defender</fullName>
+                <default>false</default>
+                <label>Public Defender</label>
+            </value>
+            <value>
+                <fullName>District Attorney/Prosecutor</fullName>
+                <default>false</default>
+                <label>District Attorney/Prosecutor</label>
+            </value>
+            <value>
+                <fullName>Administrator/Administrative Staff</fullName>
+                <default>false</default>
+                <label>Administrator/Administrative Staff</label>
+            </value>
+            <value>
+                <fullName>Attorney General</fullName>
+                <default>false</default>
+                <label>Attorney General</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>City Corporation Counsel</fullName>
+                <default>false</default>
+                <label>City Corporation Counsel</label>
+            </value>
+            <value>
+                <fullName>In-House Counsel</fullName>
+                <default>false</default>
+                <label>In-House Counsel</label>
+            </value>
+            <value>
+                <fullName>General Counsel</fullName>
+                <default>false</default>
+                <label>General Counsel</label>
+            </value>
+            <value>
+                <fullName>Chief Legal Officer</fullName>
+                <default>false</default>
+                <label>Chief Legal Officer</label>
+            </value>
+            <value>
+                <fullName>Financial Officer</fullName>
+                <default>false</default>
+                <label>Financial Officer</label>
+            </value>
+            <value>
+                <fullName>President/CEO</fullName>
+                <default>false</default>
+                <label>President/CEO</label>
+            </value>
+            <value>
+                <fullName>Reporter</fullName>
+                <default>false</default>
+                <label>Reporter</label>
+            </value>
+            <value>
+                <fullName>Lobbyist</fullName>
+                <default>false</default>
+                <label>Lobbyist</label>
+            </value>
+            <value>
+                <fullName>Judge</fullName>
+                <default>false</default>
+                <label>Judge</label>
+            </value>
+            <value>
+                <fullName>Court Attorney</fullName>
+                <default>false</default>
+                <label>Court Attorney</label>
+            </value>
+            <value>
+                <fullName>Administrative Law Judge/Hearing Officer</fullName>
+                <default>false</default>
+                <label>Administrative Law Judge/Hearing Officer</label>
+            </value>
+            <value>
+                <fullName>Law Clerk</fullName>
+                <default>false</default>
+                <label>Law Clerk</label>
+            </value>
+            <value>
+                <fullName>Partner/Shareholder</fullName>
+                <default>false</default>
+                <label>Partner/Shareholder</label>
+            </value>
+            <value>
+                <fullName>Associate</fullName>
+                <default>false</default>
+                <label>Associate</label>
+            </value>
+            <value>
+                <fullName>Senior Associate</fullName>
+                <default>false</default>
+                <label>Senior Associate</label>
+            </value>
+            <value>
+                <fullName>Of Counsel</fullName>
+                <default>false</default>
+                <label>Of Counsel</label>
+            </value>
+            <value>
+                <fullName>Managing Partner</fullName>
+                <default>false</default>
+                <label>Managing Partner</label>
+            </value>
+            <value>
+                <fullName>Solo Practitioner</fullName>
+                <default>false</default>
+                <label>Solo Practitioner</label>
+            </value>
+            <value>
+                <fullName>Pro Bono Services Administrator</fullName>
+                <default>false</default>
+                <label>Pro Bono Services Administrator</label>
+            </value>
+            <value>
+                <fullName>Paralegal</fullName>
+                <default>false</default>
+                <label>Paralegal</label>
+            </value>
+            <value>
+                <fullName>Law Librarian</fullName>
+                <default>false</default>
+                <label>Law Librarian</label>
+            </value>
+            <value>
+                <fullName>Independent Contractor</fullName>
+                <default>false</default>
+                <label>Independent Contractor</label>
+            </value>
+            <value>
+                <fullName>Diversity Coordinator</fullName>
+                <default>false</default>
+                <label>Diversity Coordinator</label>
+            </value>
+            <value>
+                <fullName>Dean</fullName>
+                <default>false</default>
+                <label>Dean</label>
+            </value>
+            <value>
+                <fullName>Professor</fullName>
+                <default>false</default>
+                <label>Professor</label>
+            </value>
+            <value>
+                <fullName>Teacher/Educator</fullName>
+                <default>false</default>
+                <label>Teacher/Educator</label>
+            </value>
+            <value>
+                <fullName>Librarian</fullName>
+                <default>false</default>
+                <label>Librarian</label>
+            </value>
+            <value>
+                <fullName>Adjunct Professor</fullName>
+                <default>false</default>
+                <label>Adjunct Professor</label>
+            </value>
+            <value>
+                <fullName>Student</fullName>
+                <default>false</default>
+                <label>Student</label>
+            </value>
+            <value>
+                <fullName>Principal</fullName>
+                <default>false</default>
+                <label>Principal</label>
+            </value>
+            <value>
+                <fullName>Superintendent</fullName>
+                <default>false</default>
+                <label>Superintendent</label>
+            </value>
+            <value>
+                <fullName>Executive Director</fullName>
+                <default>false</default>
+                <label>Executive Director</label>
+            </value>
+            <value>
+                <fullName>Volunteer/Volunteer Leader</fullName>
+                <default>false</default>
+                <label>Volunteer/Volunteer Leader</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <controllingFieldValue>Miscellaneous/Other</controllingFieldValue>
+            <valueName>Staff Attorney</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Public Defender</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>District Attorney/Prosecutor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <controllingFieldValue>Miscellaneous/Other</controllingFieldValue>
+            <valueName>Administrator/Administrative Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>Attorney General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <controllingFieldValue>Miscellaneous/Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Government</controllingFieldValue>
+            <valueName>City Corporation Counsel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>In-House Counsel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <valueName>General Counsel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Chief Legal Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Financial Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>President/CEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <valueName>Reporter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Business/Corporation (In-House)</controllingFieldValue>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <controllingFieldValue>Miscellaneous/Other</controllingFieldValue>
+            <valueName>Lobbyist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <valueName>Judge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <valueName>Court Attorney</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <valueName>Administrative Law Judge/Hearing Officer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Court System</controllingFieldValue>
+            <valueName>Law Clerk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Partner/Shareholder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Associate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Senior Associate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Of Counsel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Managing Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Solo Practitioner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Pro Bono Services Administrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Paralegal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Law Librarian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <valueName>Independent Contractor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law Firm/Private Practice</controllingFieldValue>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Diversity Coordinator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Dean</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Professor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Teacher/Educator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Librarian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Adjunct Professor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Student</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Principal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Educational Institution</controllingFieldValue>
+            <valueName>Superintendent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <valueName>Executive Director</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Profit/Public Interest</controllingFieldValue>
+            <valueName>Volunteer/Volunteer Leader</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

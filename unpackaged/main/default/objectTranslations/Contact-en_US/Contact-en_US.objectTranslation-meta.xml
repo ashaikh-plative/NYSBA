@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <fieldSets>
+        <label><!-- Work/School Address Information --></label>
+        <name>Address_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Address field --></label>
+        <name>Address_field</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Attorney Info --></label>
+        <name>Attorney_Info</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Communication Information --></label>
+        <name>Communication_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Contact Information --></label>
+        <name>Contact_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Demographics --></label>
+        <name>Demographics</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Email Preferences --></label>
+        <name>Email_Preferences</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Home Address Information --></label>
+        <name>FS_Address_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Affiliation Roster New Contact --></label>
+        <name>FS_Affiliation_Roster_New_Contact</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Communication Preferences --></label>
+        <name>FS_Communication_Preferences</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Email Preferences --></label>
+        <name>FS_Email_Preferences</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Home Address --></label>
+        <name>FS_Home_Address</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Home Address Information --></label>
+        <name>FS_Home_Address_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FS NewUserReg Attorney --></label>
+        <name>FS_NewUserReg_Attorney</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FS NewUserReg Someone Else --></label>
+        <name>FS_NewUserReg_SomeoneElse</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- FS NewUserReg Student --></label>
+        <name>FS_NewUserReg_Student</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work/School Address Information --></label>
+        <name>FS_Work_School_Address_Information</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Practice Interests --></label>
+        <name>Practice_Interests</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Work Profile --></label>
+        <name>Work_Profile</name>
+    </fieldSets>
+    <layouts>
+        <layout>GCO-Fonteva Customer Community Page Layout</layout>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>NYSBA Contact Layout</layout>
+        <sections>
+            <label><!-- Address --></label>
+            <section>Address</section>
+        </sections>
+        <sections>
+            <label><!-- Attorney Information --></label>
+            <section>Attorney Information</section>
+        </sections>
+        <sections>
+            <label><!-- Badges --></label>
+            <section>Badges</section>
+        </sections>
+        <sections>
+            <label><!-- Bulk Email Categories (HubSpot) --></label>
+            <section>Bulk Email Categories (HubSpot)</section>
+        </sections>
+        <sections>
+            <label><!-- Communication --></label>
+            <section>Communication</section>
+        </sections>
+        <sections>
+            <label><!-- Communication Preferences --></label>
+            <section>Communication Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Company Information --></label>
+            <section>Company Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Demographics --></label>
+            <section>Demographics</section>
+        </sections>
+        <sections>
+            <label><!-- Education Profile --></label>
+            <section>Education Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Emergency Contact --></label>
+            <section>Emergency Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Membership Information --></label>
+            <section>Membership Information</section>
+        </sections>
+        <sections>
+            <label><!-- OCA Import --></label>
+            <section>OCA Import</section>
+        </sections>
+        <sections>
+            <label><!-- Passport --></label>
+            <section>Passport</section>
+        </sections>
+        <sections>
+            <label><!-- Practice Interests --></label>
+            <section>Practice Interests</section>
+        </sections>
+        <sections>
+            <label><!-- Social Media and Profile Information --></label>
+            <section>Social Media and Profile Information</section>
+        </sections>
+        <sections>
+            <label><!-- Special Needs --></label>
+            <section>Special Needs</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Work Profile --></label>
+            <section>Work Profile</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Rapid Order Entry --></label>
+        <name>Rapid_Order_Entry_Custom</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Reset User Password --></label>
+        <name>Reset_User_Password</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Sync User Details --></label>
+        <name>Sync_User_Details</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Preferred Email cannot be blank --></errorMessage>
+        <name>Preferred_email_personal</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Preferred Email cannot be blank --></errorMessage>
+        <name>Preferred_email_work</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Donations --></label>
+        <name>Donations</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- FS_Member_Profile --></label>
+        <name>FS_Member_Profile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+</CustomObjectTranslation>

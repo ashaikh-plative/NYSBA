@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Years Since Admitted to Bar --></label>
+        <name>FS_Years_Since_Admitted_to_Bar__c</name>
+    </CustomFieldTranslation>

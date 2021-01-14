@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Formula_Field__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Yes : If it is a formula field 
+Give values for dependent field to check, in dependent field 
+If dependent field is blank then irrespective of field changed or not values will be updates</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Yes : If it is a formula field 
+Provide dependent field to check old map
+If dependent field is blank then irrespective of field changed or not values will be updated</inlineHelpText>
+    <label>Is Formula Field</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

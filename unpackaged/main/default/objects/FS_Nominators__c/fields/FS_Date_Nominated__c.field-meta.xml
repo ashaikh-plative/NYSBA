@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Date_Nominated__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date the fellow was nominated</inlineHelpText>
+    <label>Date Nominated</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

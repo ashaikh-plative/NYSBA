@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Apsona_Schedule_Item_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( MOD( DATEVALUE(FS_Time__c) - DATE(1900, 1, 7), 7), 0, "Sunday", 1, "Monday", 2, "Tuesday", 3,
+"Wednesday", 4, "Thursday", 5, "Friday", 6, "Saturday","Error")+", "+
+CASE(MONTH( DATEVALUE( FS_Time__c )),
+1, 'January',
+2, 'February',
+3, 'March',
+4, 'April',
+5, 'May',
+6, 'June',
+7, 'July',
+8, 'August',
+9, 'September',
+10,'October',
+11,'November',
+12,'December',
+'None')+" "+ TEXT(DAY(DATEVALUE(FS_Time__c))) +", "+TEXT(YEAR(DATEVALUE(FS_Time__c)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Apsona Schedule Item Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

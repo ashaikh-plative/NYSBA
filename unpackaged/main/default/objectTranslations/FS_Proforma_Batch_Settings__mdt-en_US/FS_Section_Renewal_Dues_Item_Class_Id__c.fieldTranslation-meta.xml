@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Id of the Section Renewal Dues Item Class --></help>
+        <label><!-- Section Renewal Dues Item Class Id --></label>
+        <name>FS_Section_Renewal_Dues_Item_Class_Id__c</name>
+    </CustomFieldTranslation>

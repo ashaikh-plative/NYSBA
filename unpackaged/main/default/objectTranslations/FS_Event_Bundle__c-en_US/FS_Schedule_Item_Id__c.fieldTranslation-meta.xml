@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Id of the Schedule Item linked to the the Child Item. --></help>
+        <label><!-- Schedule Item Id --></label>
+        <name>FS_Schedule_Item_Id__c</name>
+    </CustomFieldTranslation>

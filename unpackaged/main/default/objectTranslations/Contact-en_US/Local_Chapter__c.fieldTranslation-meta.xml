@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Local Chapter --></label>
+        <name>Local_Chapter__c</name>
+        <picklistValues>
+            <masterLabel>Albuquerque</masterLabel>
+            <translation><!-- Albuquerque --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arlington</masterLabel>
+            <translation><!-- Arlington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlanta</masterLabel>
+            <translation><!-- Atlanta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Austin</masterLabel>
+            <translation><!-- Austin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baltimore</masterLabel>
+            <translation><!-- Baltimore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boston</masterLabel>
+            <translation><!-- Boston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charlotte</masterLabel>
+            <translation><!-- Charlotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chicago</masterLabel>
+            <translation><!-- Chicago --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cleveland</masterLabel>
+            <translation><!-- Cleveland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colorado Springs</masterLabel>
+            <translation><!-- Colorado Springs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Columbus</masterLabel>
+            <translation><!-- Columbus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dallas</masterLabel>
+            <translation><!-- Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denver</masterLabel>
+            <translation><!-- Denver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detroit</masterLabel>
+            <translation><!-- Detroit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>El Paso</masterLabel>
+            <translation><!-- El Paso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fort Worth</masterLabel>
+            <translation><!-- Fort Worth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fresno</masterLabel>
+            <translation><!-- Fresno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Houston</masterLabel>
+            <translation><!-- Houston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indianapolis</masterLabel>
+            <translation><!-- Indianapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jacksonville</masterLabel>
+            <translation><!-- Jacksonville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kansas City</masterLabel>
+            <translation><!-- Kansas City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Las Vegas</masterLabel>
+            <translation><!-- Las Vegas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Long Beach</masterLabel>
+            <translation><!-- Long Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Los Angeles</masterLabel>
+            <translation><!-- Los Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Louisville-Jefferson County</masterLabel>
+            <translation><!-- Louisville-Jefferson County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Memphis</masterLabel>
+            <translation><!-- Memphis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mesa</masterLabel>
+            <translation><!-- Mesa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Miami</masterLabel>
+            <translation><!-- Miami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milwaukee</masterLabel>
+            <translation><!-- Milwaukee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minneapolis</masterLabel>
+            <translation><!-- Minneapolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nashville-Davidson</masterLabel>
+            <translation><!-- Nashville-Davidson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Orleans</masterLabel>
+            <translation><!-- New Orleans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York</masterLabel>
+            <translation><!-- New York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oakland</masterLabel>
+            <translation><!-- Oakland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oklahoma City</masterLabel>
+            <translation><!-- Oklahoma City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omaha</masterLabel>
+            <translation><!-- Omaha --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Philadelphia</masterLabel>
+            <translation><!-- Philadelphia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phoenix</masterLabel>
+            <translation><!-- Phoenix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portland</masterLabel>
+            <translation><!-- Portland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raleigh</masterLabel>
+            <translation><!-- Raleigh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sacramento</masterLabel>
+            <translation><!-- Sacramento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Antonio</masterLabel>
+            <translation><!-- San Antonio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Diego</masterLabel>
+            <translation><!-- San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Francisco</masterLabel>
+            <translation><!-- San Francisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Jose</masterLabel>
+            <translation><!-- San Jose --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seattle</masterLabel>
+            <translation><!-- Seattle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tucson</masterLabel>
+            <translation><!-- Tucson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tulsa</masterLabel>
+            <translation><!-- Tulsa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virginia Beach</masterLabel>
+            <translation><!-- Virginia Beach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Washington</masterLabel>
+            <translation><!-- Washington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wichita</masterLabel>
+            <translation><!-- Wichita --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

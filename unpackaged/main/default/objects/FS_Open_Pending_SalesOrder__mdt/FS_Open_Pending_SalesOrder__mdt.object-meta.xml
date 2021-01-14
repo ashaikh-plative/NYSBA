@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Deleting Open Pending salesorders since last 30 days</description>
+    <label>Open Pending SalesOrder</label>
+    <pluralLabel>Open Pending SalesOrders</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

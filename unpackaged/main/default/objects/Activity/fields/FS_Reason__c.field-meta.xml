@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Reason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Reason for call</inlineHelpText>
+    <label>Reason</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>FS_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Registration</fullName>
+                <default>false</default>
+                <label>Registration</label>
+            </value>
+            <value>
+                <fullName>Registration Modification</fullName>
+                <default>false</default>
+                <label>Registration Modification</label>
+            </value>
+            <value>
+                <fullName>Badge Request</fullName>
+                <default>false</default>
+                <label>Badge Request</label>
+            </value>
+            <value>
+                <fullName>Cancellation/Reimbursement</fullName>
+                <default>false</default>
+                <label>Cancellation/Reimbursement</label>
+            </value>
+            <value>
+                <fullName>CLE Event/Product Inquiry</fullName>
+                <default>false</default>
+                <label>CLE Event/Product Inquiry</label>
+            </value>
+            <value>
+                <fullName>CLE Event Registration/Product Purchase</fullName>
+                <default>false</default>
+                <label>CLE Event Registration/Product Purchase</label>
+            </value>
+            <value>
+                <fullName>CLE Certificate Request</fullName>
+                <default>false</default>
+                <label>CLE Certificate Request</label>
+            </value>
+            <value>
+                <fullName>CLE Tracker</fullName>
+                <default>false</default>
+                <label>CLE Tracker</label>
+            </value>
+            <value>
+                <fullName>CE21 Help</fullName>
+                <default>false</default>
+                <label>CE21 Help</label>
+            </value>
+            <value>
+                <fullName>Other Event Inquiry or Registration (non-CLE)</fullName>
+                <default>false</default>
+                <label>Other Event Inquiry or Registration (non-CLE)</label>
+            </value>
+            <value>
+                <fullName>Join or Reactivate Membership</fullName>
+                <default>false</default>
+                <label>Join or Reactivate Membership</label>
+            </value>
+            <value>
+                <fullName>Dues Renewal</fullName>
+                <default>false</default>
+                <label>Dues Renewal</label>
+            </value>
+            <value>
+                <fullName>Section or Committee Request</fullName>
+                <default>false</default>
+                <label>Section or Committee Request</label>
+            </value>
+            <value>
+                <fullName>ID Card Request</fullName>
+                <default>false</default>
+                <label>ID Card Request</label>
+            </value>
+            <value>
+                <fullName>Website Help</fullName>
+                <default>false</default>
+                <label>Website Help</label>
+            </value>
+            <value>
+                <fullName>Password Reset</fullName>
+                <default>false</default>
+                <label>Password Reset</label>
+            </value>
+            <value>
+                <fullName>Order</fullName>
+                <default>false</default>
+                <label>Order</label>
+            </value>
+            <value>
+                <fullName>Order Status</fullName>
+                <default>false</default>
+                <label>Order Status</label>
+            </value>
+            <value>
+                <fullName>Product Issue</fullName>
+                <default>false</default>
+                <label>Product Issue</label>
+            </value>
+            <value>
+                <fullName>Refund/Return</fullName>
+                <default>false</default>
+                <label>Refund/Return</label>
+            </value>
+            <value>
+                <fullName>Address or Demographic Update</fullName>
+                <default>false</default>
+                <label>Address or Demographic Update</label>
+            </value>
+            <value>
+                <fullName>Complaint</fullName>
+                <default>false</default>
+                <label>Complaint</label>
+            </value>
+            <value>
+                <fullName>NYSBA Form Request</fullName>
+                <default>false</default>
+                <label>NYSBA Form Request</label>
+            </value>
+            <value>
+                <fullName>Invoice Request</fullName>
+                <default>false</default>
+                <label>Invoice Request</label>
+            </value>
+            <value>
+                <fullName>Receipt Request</fullName>
+                <default>false</default>
+                <label>Receipt Request</label>
+            </value>
+            <value>
+                <fullName>Non-NYSBA Inquiry</fullName>
+                <default>false</default>
+                <label>Non-NYSBA Inquiry</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Additional Enrollment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Additional Enrollment</label>
+            </value>
+            <value>
+                <fullName>App Help</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>App Help</label>
+            </value>
+            <value>
+                <fullName>Cancelation/Reimbursement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cancelation/Reimbursement</label>
+            </value>
+            <value>
+                <fullName>Demographic Update</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Demographic Update</label>
+            </value>
+            <value>
+                <fullName>Dues Payment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dues Payment</label>
+            </value>
+            <value>
+                <fullName>Enrollment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Enrollment</label>
+            </value>
+            <value>
+                <fullName>Form Request</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Form Request</label>
+            </value>
+            <value>
+                <fullName>General Inquiry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>General Inquiry</label>
+            </value>
+            <value>
+                <fullName>Online Help</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Online Help</label>
+            </value>
+            <value>
+                <fullName>Program Enrollment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Program Enrollment</label>
+            </value>
+            <value>
+                <fullName>Program Inquiry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Program Inquiry</label>
+            </value>
+            <value>
+                <fullName>Program Payment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Program Payment</label>
+            </value>
+            <value>
+                <fullName>Publication Inquiry</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Publication Inquiry</label>
+            </value>
+            <value>
+                <fullName>Publication Order</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Publication Order</label>
+            </value>
+            <value>
+                <fullName>Publication Refund/Return</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Publication Refund/Return</label>
+            </value>
+            <value>
+                <fullName>Publication Status</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Publication Status</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Annual Meeting</controllingFieldValue>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <controllingFieldValue>Publications</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual Meeting</controllingFieldValue>
+            <valueName>Registration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual Meeting</controllingFieldValue>
+            <valueName>Registration Modification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual Meeting</controllingFieldValue>
+            <valueName>Badge Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Annual Meeting</controllingFieldValue>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <controllingFieldValue>CLE &amp; Events</controllingFieldValue>
+            <valueName>Cancellation/Reimbursement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Join or Reactivate Membership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Dues Renewal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>Section or Committee Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Membership</controllingFieldValue>
+            <valueName>ID Card Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>Website Help</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <valueName>Password Reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Online</controllingFieldValue>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Publications</controllingFieldValue>
+            <valueName>Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Publications</controllingFieldValue>
+            <valueName>Order Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Publications</controllingFieldValue>
+            <valueName>Product Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Publications</controllingFieldValue>
+            <valueName>Refund/Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Address or Demographic Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>NYSBA Form Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Invoice Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Receipt Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General</controllingFieldValue>
+            <valueName>Non-NYSBA Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLE &amp; Events</controllingFieldValue>
+            <valueName>CLE Event/Product Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLE &amp; Events</controllingFieldValue>
+            <valueName>CLE Event Registration/Product Purchase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLE &amp; Events</controllingFieldValue>
+            <valueName>CLE Certificate Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLE &amp; Events</controllingFieldValue>
+            <valueName>CLE Tracker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLE &amp; Events</controllingFieldValue>
+            <valueName>CE21 Help</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

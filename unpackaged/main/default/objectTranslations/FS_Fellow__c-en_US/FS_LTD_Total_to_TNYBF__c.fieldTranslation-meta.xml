@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total contribution towards TNYBF --></help>
+        <label><!-- LTD Total to TNYBF --></label>
+        <name>FS_LTD_Total_to_TNYBF__c</name>
+    </CustomFieldTranslation>

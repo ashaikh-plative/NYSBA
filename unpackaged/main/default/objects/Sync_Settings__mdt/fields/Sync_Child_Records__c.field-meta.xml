@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sync_Child_Records__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Denotes if any child records are to be pushed along with parent payload</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Sync Child Records?</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Select all that apply --></help>
+        <label><!-- Practice Interests --></label>
+        <name>FS_Practice_Interests__c</name>
+        <picklistValues>
+            <masterLabel>Administrative Law</masterLabel>
+            <translation><!-- Administrative Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adoption &amp; Foster Care</masterLabel>
+            <translation><!-- Adoption &amp; Foster Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture</masterLabel>
+            <translation><!-- Agriculture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alternative Dispute Resolution (General)</masterLabel>
+            <translation><!-- Alternative Dispute Resolution (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Animal Law</masterLabel>
+            <translation><!-- Animal Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antitrust &amp; Trade (General)</masterLabel>
+            <translation><!-- Antitrust &amp; Trade (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Appellate Practice</masterLabel>
+            <translation><!-- Appellate Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arbitration</masterLabel>
+            <translation><!-- Arbitration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney Escrow/IOLA</masterLabel>
+            <translation><!-- Attorney Escrow/IOLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorney Wellness</masterLabel>
+            <translation><!-- Attorney Wellness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Attorneys of Color</masterLabel>
+            <translation><!-- Attorneys of Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Banking</masterLabel>
+            <translation><!-- Banking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bankruptcy/Insolvency</masterLabel>
+            <translation><!-- Bankruptcy/Insolvency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing &amp; Law Office Economics</masterLabel>
+            <translation><!-- Billing &amp; Law Office Economics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Biotechnology</masterLabel>
+            <translation><!-- Biotechnology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business &amp; Corporate (General)</masterLabel>
+            <translation><!-- Business &amp; Corporate (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Organizations/Corporate Structure</masterLabel>
+            <translation><!-- Business Organizations/Corporate Structure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Career</masterLabel>
+            <translation><!-- Career --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Children &amp; Juvenile Justice</masterLabel>
+            <translation><!-- Children &amp; Juvenile Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civic Education</masterLabel>
+            <translation><!-- Civic Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil Litigation</masterLabel>
+            <translation><!-- Civil Litigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civility &amp; Client Relations</masterLabel>
+            <translation><!-- Civility &amp; Client Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial</masterLabel>
+            <translation><!-- Commercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commercial Litigation</masterLabel>
+            <translation><!-- Commercial Litigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Condominiums &amp; Cooperatives</masterLabel>
+            <translation><!-- Condominiums &amp; Cooperatives --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conflicts of Interest</masterLabel>
+            <translation><!-- Conflicts of Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contracts (General)</masterLabel>
+            <translation><!-- Contracts (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copyright</masterLabel>
+            <translation><!-- Copyright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate/Business Tax</masterLabel>
+            <translation><!-- Corporate/Business Tax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creditors' Rights/Collections</masterLabel>
+            <translation><!-- Creditors&apos; Rights/Collections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Criminal Defense</masterLabel>
+            <translation><!-- Criminal Defense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Criminal Law (General)</masterLabel>
+            <translation><!-- Criminal Law (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Criminal Prosecution</masterLabel>
+            <translation><!-- Criminal Prosecution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cryptocurrencies</masterLabel>
+            <translation><!-- Cryptocurrencies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyber Security</masterLabel>
+            <translation><!-- Cyber Security --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DWI/DUI</masterLabel>
+            <translation><!-- DWI/DUI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Privacy</masterLabel>
+            <translation><!-- Data Privacy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Derivatives/Structured Products</masterLabel>
+            <translation><!-- Derivatives/Structured Products --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disability &amp; Special Needs</masterLabel>
+            <translation><!-- Disability &amp; Special Needs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Diversity, Inclusion &amp; Civil Rights (General)</masterLabel>
+            <translation><!-- Diversity, Inclusion &amp; Civil Rights (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Education Law</masterLabel>
+            <translation><!-- Education Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elder Law &amp; Special Needs (General)</masterLabel>
+            <translation><!-- Elder Law &amp; Special Needs (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Benefits</masterLabel>
+            <translation><!-- Employee Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Energy Law</masterLabel>
+            <translation><!-- Energy Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entertainment, Arts &amp; Sports (General)</masterLabel>
+            <translation><!-- Entertainment, Arts &amp; Sports (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental &amp; Energy (General)</masterLabel>
+            <translation><!-- Environmental &amp; Energy (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Environmental Law</masterLabel>
+            <translation><!-- Environmental Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Equal Opportunity Employment</masterLabel>
+            <translation><!-- Equal Opportunity Employment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Estate Planning</masterLabel>
+            <translation><!-- Estate Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ethics (General)</masterLabel>
+            <translation><!-- Ethics (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Court Practice</masterLabel>
+            <translation><!-- Family Court Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Family Law (General)</masterLabel>
+            <translation><!-- Family Law (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal Litigation</masterLabel>
+            <translation><!-- Federal Litigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance &amp; Financial Services (General)</masterLabel>
+            <translation><!-- Finance &amp; Financial Services (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food, Drug &amp; Cosmetics (General)</masterLabel>
+            <translation><!-- Food, Drug &amp; Cosmetics (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Foreclosures, Liens &amp; Workouts</masterLabel>
+            <translation><!-- Foreclosures, Liens &amp; Workouts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Franchise Law</masterLabel>
+            <translation><!-- Franchise Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General/Multidisciplinary Practice (General)</masterLabel>
+            <translation><!-- General/Multidisciplinary Practice (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Interest</masterLabel>
+            <translation><!-- Global Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Government (General)</masterLabel>
+            <translation><!-- Government (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Guardianship</masterLabel>
+            <translation><!-- Guardianship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Law (General)</masterLabel>
+            <translation><!-- Health Law (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Immigration Law (General)</masterLabel>
+            <translation><!-- Immigration Law (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House Practice</masterLabel>
+            <translation><!-- In-House Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Defense</masterLabel>
+            <translation><!-- Insurance Defense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intellectual Property Law (General)</masterLabel>
+            <translation><!-- Intellectual Property Law (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>International (General)</masterLabel>
+            <translation><!-- International (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet &amp; Technology Law (General)</masterLabel>
+            <translation><!-- Internet &amp; Technology Law (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Judiciary &amp; Courts (General)</masterLabel>
+            <translation><!-- Judiciary &amp; Courts (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LGBTQ+ Legal Issues</masterLabel>
+            <translation><!-- LGBTQ+ Legal Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Labor &amp; Employment (General)</masterLabel>
+            <translation><!-- Labor &amp; Employment (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landlord/Tenant</masterLabel>
+            <translation><!-- Landlord/Tenant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Practice Management (General)</masterLabel>
+            <translation><!-- Law Practice Management (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leases &amp; Leasing</masterLabel>
+            <translation><!-- Leases &amp; Leasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Libel</masterLabel>
+            <translation><!-- Libel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Litigation &amp; Trials (General)</masterLabel>
+            <translation><!-- Litigation &amp; Trials (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lobbying &amp; Legislative Affairs</masterLabel>
+            <translation><!-- Lobbying &amp; Legislative Affairs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing &amp; Business Development</masterLabel>
+            <translation><!-- Marketing &amp; Business Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matrimonial/Domestic Relations</masterLabel>
+            <translation><!-- Matrimonial/Domestic Relations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mediation</masterLabel>
+            <translation><!-- Mediation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicaid &amp; Medicare</masterLabel>
+            <translation><!-- Medicaid &amp; Medicare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Malpractice</masterLabel>
+            <translation><!-- Medical Malpractice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mergers &amp; Acquisition</masterLabel>
+            <translation><!-- Mergers &amp; Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipal Law</masterLabel>
+            <translation><!-- Municipal Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY Rules of Professional Conduct</masterLabel>
+            <translation><!-- NY Rules of Professional Conduct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Lawyers</masterLabel>
+            <translation><!-- New Lawyers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New York Civil Practice (General)</masterLabel>
+            <translation><!-- New York Civil Practice (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nonprofit Law</masterLabel>
+            <translation><!-- Nonprofit Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patents</masterLabel>
+            <translation><!-- Patents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Tax</masterLabel>
+            <translation><!-- Personal Tax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal or Property Injury</masterLabel>
+            <translation><!-- Personal or Property Injury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plaintiffs Representation</masterLabel>
+            <translation><!-- Plaintiffs Representation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice Skills</masterLabel>
+            <translation><!-- Practice Skills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Bono &amp; Public Good (General)</masterLabel>
+            <translation><!-- Pro Bono &amp; Public Good (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pro Bono/Access to Justice</masterLabel>
+            <translation><!-- Pro Bono/Access to Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Probate</masterLabel>
+            <translation><!-- Probate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Liability</masterLabel>
+            <translation><!-- Product Liability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Development (General)</masterLabel>
+            <translation><!-- Professional Development (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Liability &amp; Legal Malpractice</masterLabel>
+            <translation><!-- Professional Liability &amp; Legal Malpractice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Contract</masterLabel>
+            <translation><!-- Public Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Sector</masterLabel>
+            <translation><!-- Public Sector --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Utilities</masterLabel>
+            <translation><!-- Public Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Property Law (General)</masterLabel>
+            <translation><!-- Real Property Law (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Residential</masterLabel>
+            <translation><!-- Residential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Management</masterLabel>
+            <translation><!-- Risk Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securities</masterLabel>
+            <translation><!-- Securities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Senior Lawyers</masterLabel>
+            <translation><!-- Senior Lawyers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation><!-- Social Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Security Law</masterLabel>
+            <translation><!-- Social Security Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solo/Small Firm Practice</masterLabel>
+            <translation><!-- Solo/Small Firm Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staffing &amp; Human Resources</masterLabel>
+            <translation><!-- Staffing &amp; Human Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Start-Ups &amp; Ventures</masterLabel>
+            <translation><!-- Start-Ups &amp; Ventures --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starting or Closing a Practice</masterLabel>
+            <translation><!-- Starting or Closing a Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Substance abuse control</masterLabel>
+            <translation><!-- Substance abuse control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax Law (General)</masterLabel>
+            <translation><!-- Tax Law (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology &amp; Practice Resources</masterLabel>
+            <translation><!-- Technology &amp; Practice Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology competence</masterLabel>
+            <translation><!-- Technology competence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Torts &amp; Insurance (General)</masterLabel>
+            <translation><!-- Torts &amp; Insurance (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trade Secrets</masterLabel>
+            <translation><!-- Trade Secrets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trademarks</masterLabel>
+            <translation><!-- Trademarks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trust Administration</masterLabel>
+            <translation><!-- Trust Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trusts &amp; Estates Law (General)</masterLabel>
+            <translation><!-- Trusts &amp; Estates Law (General) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vehicle, Traffic, and Transportation Law</masterLabel>
+            <translation><!-- Vehicle, Traffic, and Transportation Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Veterans' Legal Issues</masterLabel>
+            <translation><!-- Veterans&apos; Legal Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wills</masterLabel>
+            <translation><!-- Wills --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women and the Law</masterLabel>
+            <translation><!-- Women and the Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workers' Compensation</masterLabel>
+            <translation><!-- Workers&apos; Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zoning, Planning &amp; Land Use</masterLabel>
+            <translation><!-- Zoning, Planning &amp; Land Use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>e-Discovery</masterLabel>
+            <translation><!-- e-Discovery --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

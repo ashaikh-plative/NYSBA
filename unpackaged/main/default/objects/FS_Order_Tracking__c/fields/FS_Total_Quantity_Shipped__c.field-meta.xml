@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Total_Quantity_Shipped__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>total quantity shipped for the item. The user will be charged when this count is equal to the quantity on the sales order line record for the item</inlineHelpText>
+    <label>Total Quantity Shipped</label>
+    <summarizedField>FS_Order_Fulfillment__c.FS_Quantity_Shipped__c</summarizedField>
+    <summaryForeignKey>FS_Order_Fulfillment__c.FS_Order_Tracking__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

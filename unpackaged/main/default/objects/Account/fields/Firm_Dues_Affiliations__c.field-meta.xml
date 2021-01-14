@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firm_Dues_Affiliations__c</fullName>
+    <description>Count of Active Child Affiliations where Firm Dues = TRUE</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Count of Active Child Affiliations where Firm Dues = TRUE</inlineHelpText>
+    <label>Firm Dues Affiliations</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

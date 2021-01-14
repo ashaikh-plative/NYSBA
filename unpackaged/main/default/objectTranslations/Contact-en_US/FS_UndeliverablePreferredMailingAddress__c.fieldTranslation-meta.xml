@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Marked manually by staff when mail is returned, or when address is otherwise noted to be invalid. --></help>
+        <label><!-- Undeliverable Preferred Mailing Address --></label>
+        <name>FS_UndeliverablePreferredMailingAddress__c</name>
+    </CustomFieldTranslation>

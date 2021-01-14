@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Source --></label>
+        <name>FS_Source__c</name>
+        <picklistValues>
+            <masterLabel>Imported</masterLabel>
+            <translation><!-- Imported --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New User Registration</masterLabel>
+            <translation><!-- New User Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OCA Import</masterLabel>
+            <translation><!-- OCA Import --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staff</masterLabel>
+            <translation><!-- Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscribe Form</masterLabel>
+            <translation><!-- Subscribe Form --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

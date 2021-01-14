@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Other_County__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(FS_Tax_Exempt_Number__c &lt;&gt; NULL, "Tax Exempt",
+IF(NOT(OtherState = "New York"), "Out of State",
+IF(smartystreets__Other_Verified__c &amp;&amp; OtherState = "New York",
+IF(CONTAINS(FS_API_Other_County__c, "Westchester") &amp;&amp; CONTAINS(OtherCity, "Yonkers"), "City of Yonkers Westchester",FS_API_Other_County__c),"New York State")))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Home Tax County</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

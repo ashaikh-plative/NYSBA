@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Employment Status --></label>
+        <name>FS_EmploymentStatus__c</name>
+        <picklistValues>
+            <masterLabel>Full-Time Law Practice</masterLabel>
+            <translation><!-- Full-Time Law Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Law Related</masterLabel>
+            <translation><!-- Non-Law Related --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part-Time Law Practice</masterLabel>
+            <translation><!-- Part-Time Law Practice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retired</masterLabel>
+            <translation><!-- Retired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unemployed</masterLabel>
+            <translation><!-- Unemployed --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

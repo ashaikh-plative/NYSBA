@@ -1,0 +1,42 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><span lang="EN-US">Dear {!OrderApi__Receipt__c.OrderApi__Contact__c}, <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US">Thank you for ordering the All-Access Pass.
+<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US"><o:p>&nbsp;</o:p></span></p><p class="MsoNormal"></p><ul><li><span lang="EN-US" style="text-indent: -18pt; font-size: 12pt;">We have updated your NYSBA account
+to allow for unlimited On-Demand program access.</span></li><li><span lang="EN-US" style="font-size: 12pt; text-indent: -18pt;">Just add any recorded program
+to your cart from our On-Demand CLE catalog and proceed with the checkout
+process, where the price will be updated to $0.00</span></li><li>To view any program(s) you
+added, please log-in and click on My Learning Dashboard, then launch the program(s)
+from your list.</li><li>Your All-Access Pass will
+expire one-year from your date of original purchase.</li></ul><p></p>
+
+<p class="MsoNormal"><span lang="EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US">If you have any questions regarding your
+receipt, please contact our Member Resource Center at 800-582-2452 or via
+e-mail at <a href="mrc@nysba.org">mrc@nysba.org</a> <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US">Thank you, <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US">The New York State Bar Association<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US">One Elk Street <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US">Albany, NY 12207<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US">518-463-3200<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="EN-US"><a href="www.nysba.org">www.nysba.org</a>
+<o:p></o:p></span></p>]]></td>
+</tr>
+</table>

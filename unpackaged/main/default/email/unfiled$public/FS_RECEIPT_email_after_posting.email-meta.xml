@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template for RECEIPT after posting</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>NYSBA_Letterhead</letterhead>
+    <name>FS RECEIPT- email after posting</name>
+    <style>formalLetter</style>
+    <subject>Order Confirmation &amp; Receipt</subject>
+    <textOnly>Dear {!OrderApi__Receipt__c.OrderApi__Contact__c},
+
+Thank you for your order.
+
+
+
+In order to access an On-Demand program, you must Log-in, click on My Learning Dashboard, and launch the recorded program from the list.
+
+Downloadable purchases, such as eBooks, can be accessed by selecting the My Downloads tab when viewing your profile.
+
+For products being shipped, due to the current situation being presented to us with the Coronavirus, our warehouse is operating on reduced hours, so please allow 7-10 business days for your order to arrive.
+
+
+Please follow the link below to download a copy of your receipt.
+
+Receipt Link: https://portal.nysba.org/Orderapi__receipt?id={!OrderApi__Receipt__c.Id}
+
+If you have any questions regarding your receipt, please contact our Member Resource Center at 800-582-2452 or via e-mail mrc@nysba.org
+
+Thank you,
+The {!Organization.Name}
+
+
+
+One Elk Street
+Albany
+NY 12207
+518-463-3200
+
+
+www.nysba.org</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

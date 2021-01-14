@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HasOptedOutOfEmail</fullName>
+    <inlineHelpText>Excludes email address designated as "preferred" from bulk communications. Transactional email (such as receipts) will still be sent.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+</CustomField>

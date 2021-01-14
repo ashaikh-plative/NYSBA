@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Category__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>category of the Call</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Annual Meeting</fullName>
+                <default>false</default>
+                <label>Annual Meeting</label>
+            </value>
+            <value>
+                <fullName>Membership</fullName>
+                <default>false</default>
+                <label>Membership</label>
+            </value>
+            <value>
+                <fullName>CLE &amp; Events</fullName>
+                <default>false</default>
+                <label>CLE &amp; Events</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <value>
+                <fullName>Publications</fullName>
+                <default>false</default>
+                <label>Publications</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>CLE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CLE</label>
+            </value>
+            <value>
+                <fullName>Demographics</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Demographics</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

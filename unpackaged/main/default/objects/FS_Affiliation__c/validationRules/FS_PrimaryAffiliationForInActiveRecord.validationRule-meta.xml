@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_PrimaryAffiliationForInActiveRecord</fullName>
+    <active>true</active>
+    <description>Primary affiliation can be checked for active affiliation record only</description>
+    <errorConditionFormula>AND (
+ISPICKVAL( FS_Status__c , "InActive"),
+FS_Primary_Affiliation__c = true
+)</errorConditionFormula>
+    <errorMessage>Status field has to be active to set primary affiliation flag.</errorMessage>
+</ValidationRule>

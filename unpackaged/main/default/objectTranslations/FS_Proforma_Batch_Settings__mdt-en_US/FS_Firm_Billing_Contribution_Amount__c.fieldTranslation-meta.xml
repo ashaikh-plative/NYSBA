@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The amount to put in the General Contribution Line for Sales Orders with Firm Billing. --></help>
+        <label><!-- Firm Billing Contribution Amount --></label>
+        <name>FS_Firm_Billing_Contribution_Amount__c</name>
+    </CustomFieldTranslation>

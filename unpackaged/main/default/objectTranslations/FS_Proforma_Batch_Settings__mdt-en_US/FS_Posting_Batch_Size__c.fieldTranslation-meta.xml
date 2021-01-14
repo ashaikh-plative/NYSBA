@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The size of the batch used for posting Sales Orders. This job runs after all the SOL are added to the SO and is more CPU intensive. --></help>
+        <label><!-- Posting Batch Size --></label>
+        <name>FS_Posting_Batch_Size__c</name>
+    </CustomFieldTranslation>

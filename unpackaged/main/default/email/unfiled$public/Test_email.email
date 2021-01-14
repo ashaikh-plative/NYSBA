@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="test email" recipientType="User" relatedToType="OrderApi__Sales_Order_Line__c">
+<messaging:plainTextEmailBody >
+Congratulations!
+This is your new Visualforce Email Template.
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

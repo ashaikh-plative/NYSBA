@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Leadership Title for this Leadership Role and Title  during this time period --></help>
+        <label><!-- Leadership Title --></label>
+        <name>FS_Leadership_Title__c</name>
+    </CustomFieldTranslation>

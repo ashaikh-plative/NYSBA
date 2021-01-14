@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Directory Opt In Choice --></label>
+        <name>FS_Directory_Opt_In_Choice__c</name>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Show as Anonymous User</masterLabel>
+            <translation><!-- Show as Anonymous User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Work</masterLabel>
+            <translation><!-- Work --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

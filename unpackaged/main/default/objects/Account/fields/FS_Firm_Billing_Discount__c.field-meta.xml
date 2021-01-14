@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Firm_Billing_Discount__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Firm Billing Discount - No functionality is tied to this field; billing amounts should be adjusted when generated. (Explore price rules or source codes in the future)</inlineHelpText>
+    <label>Firm Billing Discount</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

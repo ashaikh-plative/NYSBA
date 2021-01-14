@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- total quantity shipped for the item. The user will be charged when this count is equal to the quantity on the sales order line record for the item --></help>
+        <label><!-- Total Quantity Shipped --></label>
+        <name>FS_Total_Quantity_Shipped__c</name>
+    </CustomFieldTranslation>

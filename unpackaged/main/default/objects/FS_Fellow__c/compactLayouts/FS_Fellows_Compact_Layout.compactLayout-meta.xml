@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Fellows_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>FS_Contact__c</fields>
+    <fields>FS_Status__c</fields>
+    <fields>FS_Total_Pledge_Amount_Paid__c</fields>
+    <fields>FS_Pledge_Years__c</fields>
+    <fields>FS_Pledge_Amount_Balance__c</fields>
+    <label>Fellows Compact Layout</label>
+</CompactLayout>

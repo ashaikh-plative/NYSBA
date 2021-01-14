@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The Account related to the Community Group Member at the time of purchase --></help>
+        <label><!-- Engagement Account --></label>
+        <name>FS_Engagement_Account__c</name>
+        <relationshipLabel><!-- Community Group Member Terms --></relationshipLabel>
+    </CustomFieldTranslation>

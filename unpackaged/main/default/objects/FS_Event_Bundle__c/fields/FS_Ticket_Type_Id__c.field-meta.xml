@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Ticket_Type_Id__c</fullName>
+    <externalId>false</externalId>
+    <formula>FS_Child_Item__r.EventApi__Ticket_Type__c</formula>
+    <inlineHelpText>The Id of the Ticket Type linked to the the Child Item</inlineHelpText>
+    <label>Ticket Type Id</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

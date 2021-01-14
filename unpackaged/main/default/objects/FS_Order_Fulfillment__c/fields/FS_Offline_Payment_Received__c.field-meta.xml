@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Offline_Payment_Received__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is checked, if payment is not pre-authorized via Credit Card.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is checked, if payment is not pre-authorized via Credit Card.</inlineHelpText>
+    <label>Offline Payment Received</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

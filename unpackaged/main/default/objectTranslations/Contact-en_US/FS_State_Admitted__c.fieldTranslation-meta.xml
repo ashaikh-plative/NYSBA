@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The State you where first admitted, in any jurisdiction --></help>
+        <label><!-- State Admitted --></label>
+        <name>FS_State_Admitted__c</name>
+    </CustomFieldTranslation>

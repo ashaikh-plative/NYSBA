@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bar_Associations_in_directory</fullName>
+    <columns>FS_NYSBA_ID__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>FS_BarType__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>FS_Directoryemail__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.FS_Bar_Association</value>
+    </filters>
+    <filters>
+        <field>FS_ShowinDirectory__c</field>
+        <operation>equals</operation>
+        <value>Show in Bar Directory</value>
+    </filters>
+    <label>Bar Associations (in directory)</label>
+</ListView>

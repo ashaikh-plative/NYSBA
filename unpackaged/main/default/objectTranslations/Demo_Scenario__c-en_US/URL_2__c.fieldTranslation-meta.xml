@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- 1 of 3 URL fields to assist sales engineers with finding the record(s)/pages related to the scenario in the environment. --></help>
+        <label><!-- URL #2 --></label>
+        <name>URL_2__c</name>
+    </CustomFieldTranslation>

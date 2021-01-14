@@ -1,0 +1,10 @@
+Dear {!Contact.LastName} , <br/><br/>
+
+This is just a friendly reminder that your account with us appears as past due, to view and pay your invoices please click on the link <a href="https://nysba--nysbauat--orderapi.cs90.visual.force.com/apex/web_invoice?scontrolCaching=1&id={!OrderApi__Invoice__c.Id}">here</a> to manage payments overdue. <br/><br/>
+
+Thank you, <br/>
+The New York State Bar Association <br/>
+One Elk Street <br/> 
+Albany, NY 12207 <br/>
+518-463-3200 <br/>
+www.nysba.org"

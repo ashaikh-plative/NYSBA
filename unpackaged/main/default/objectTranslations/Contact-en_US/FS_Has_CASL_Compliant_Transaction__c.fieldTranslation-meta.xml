@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Contact has done business with NYSBA in the last 2 years. This is as of date 4/14 --></help>
+        <label><!-- Has CASL-Compliant Transaction --></label>
+        <name>FS_Has_CASL_Compliant_Transaction__c</name>
+    </CustomFieldTranslation>

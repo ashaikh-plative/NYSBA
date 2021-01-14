@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FS_Bar_Association_Compact</fullName>
+    <fields>Name</fields>
+    <fields>FS_NYSBA_ID__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Website</fields>
+    <fields>FS_ShowinDirectory__c</fields>
+    <label>Bar Association Compact</label>
+</CompactLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Date_Verified_by_Staff__c</fullName>
+    <description>Date attorney admission was verified by staff (not date of admission necessarily, but date staff confirmed admission)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date attorney admission was verified by staff (not date of admission necessarily, but date staff confirmed admission)</inlineHelpText>
+    <label>Date Verified by Staff</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

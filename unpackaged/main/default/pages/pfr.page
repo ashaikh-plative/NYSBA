@@ -1,0 +1,9 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" standardController="OrderApi__Sales_Order__c"
+           extensions="FS_ProformaRedirector" action="{!redirectToRelevantPage}">
+<head>
+    <script>
+    
+        // window.location = '/FSP_FonMPP__pfr' + window.location.search;
+    </script>
+</head>
+</apex:page>

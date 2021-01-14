@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Contact tied to the transcript record --></help>
+        <label><!-- Contact --></label>
+        <name>FS_Contact__c</name>
+        <relationshipLabel><!-- Transcripts --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Public Official (Staff/System) status confirmation --></help>
+        <label><!-- Public Official Confirmation Status --></label>
+        <name>FS_Public_Official_Confirmation_Status__c</name>
+        <picklistValues>
+            <masterLabel>Caution (system flag)</masterLabel>
+            <translation><!-- Caution (system flag) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No (confirmed)</masterLabel>
+            <translation><!-- No (confirmed) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes (confirmed)</masterLabel>
+            <translation><!-- Yes (confirmed) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

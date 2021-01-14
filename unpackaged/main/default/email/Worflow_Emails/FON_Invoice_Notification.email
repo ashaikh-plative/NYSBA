@@ -1,0 +1,15 @@
+Dear {!OrderApi__Invoice__c.OrderApi__Contact__c},
+
+Thank you for your order.
+
+Please click the link below to download a copy of your invoice.
+
+Invoice Link: https://fonteva-solutions-developer-edition.na31.force.com/Orderapi__web_invoice?id={!OrderApi__Invoice__c.Id}
+
+If you have any questions regarding your invoice or how to make a payment, please contact our Member Resource Center at 800-582-2452 or mrc@nysba.org
+
+Thank you,
+{!Organization.Name}
+
+
+One Elk Street, Albany, NY 12207, 518-463-3200 | www.nysba.org

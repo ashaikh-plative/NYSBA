@@ -1,0 +1,12 @@
+<apex:page ContentType="text/Calendar;charset=utf-8" controller="FS_CalendarInviteController">
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART;TZID=GMT:{!startDate}
+DTEND;TZID=GMT:{!endDate}
+SUMMARY:{!summary}
+END:VEVENT
+END:VCALENDAR
+</apex:page>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is checked, if payment is not pre-authorized via Credit Card. --></help>
+        <label><!-- Offline Payment Received --></label>
+        <name>FS_Offline_Payment_Received__c</name>
+    </CustomFieldTranslation>
